@@ -1,0 +1,99 @@
+name: Reportar problema em uma questão
+description: Informe uma resposta incorreta, ambiguidade, desatualização ou outro problema de conteúdo.
+title: '[Feedback de questão] '
+labels:
+  - question-feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar a melhorar o AIF Navigator. Os identificadores abaixo são preenchidos automaticamente pelo aplicativo e não revelam o enunciado nem a resposta.
+
+  - type: input
+    id: question_id
+    attributes:
+      label: Identificador da questão
+      description: Preenchido automaticamente. Não é necessário copiar o enunciado.
+      placeholder: aif-d1-001
+    validations:
+      required: true
+
+  - type: input
+    id: content_version
+    attributes:
+      label: Versão do conteúdo
+      description: Preenchida automaticamente pelo aplicativo.
+      placeholder: 2026.10.08-aif-preview.1
+    validations:
+      required: true
+
+  - type: input
+    id: domain
+    attributes:
+      label: Domínio
+      description: Preenchido automaticamente pelo aplicativo.
+    validations:
+      required: true
+
+  - type: input
+    id: variant_id
+    attributes:
+      label: Identificador da variação
+      description: Permite localizar exatamente a variação exibida sem publicar a pergunta.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: Qual é o problema?
+      options:
+        - A resposta indicada parece incorreta
+        - O enunciado ou as alternativas estão ambíguos
+        - O conteúdo parece desatualizado
+        - A explicação não está clara
+        - Há um erro de português ou formatação
+        - A dificuldade está inadequada
+        - Outro problema
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: O que você observou?
+      description: Explique o problema e, se possível, por que a questão deveria ser revisada.
+      placeholder: Descreva de forma objetiva o que não parece correto.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Sugestão ou referência oficial
+      description: Opcional. Inclua uma sugestão de correção ou um link para documentação oficial da AWS.
+
+  - type: input
+    id: browser
+    attributes:
+      label: Navegador
+      description: Informação técnica preenchida automaticamente para ajudar no diagnóstico.
+    validations:
+      required: false
+
+  - type: upload
+    id: screenshot
+    attributes:
+      label: Captura de tela
+      description: Opcional. Antes de enviar, remova nomes, contas, e-mails ou outros dados pessoais.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: public_notice
+    attributes:
+      label: Confirmação de privacidade
+      description: O relatório será público no GitHub.
+      options:
+        - label: Confirmei que o comentário e os anexos não contêm dados pessoais, credenciais ou material confidencial.
+          required: true

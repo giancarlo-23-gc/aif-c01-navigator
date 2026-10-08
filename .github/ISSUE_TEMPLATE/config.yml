@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Relatar vulnerabilidade de segurança em privado
+    url: https://github.com/giancarlo-23-gc/aif-c01-navigator/security/advisories/new
+    about: Não publique vulnerabilidades, credenciais ou dados pessoais em issues.
+  - name: Estado do AIF Navigator
+    url: https://github.com/giancarlo-23-gc/aif-c01-navigator
+    about: Acompanhar o estado do projeto; o aplicativo ainda não foi publicado.
