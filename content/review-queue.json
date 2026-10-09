@@ -1,52 +1,7 @@
 {
   "version": "2026.10.09-aif-preview.10",
-  "generatedAt": "2026-10-09T21:17:19.101Z",
-  "pendingChanges": [
-    {
-      "sourceId": "bedrock-pricing",
-      "title": "Modelos de cobrança Bedrock",
-      "url": "https://aws.amazon.com/bedrock/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-09T21:17:18.078Z",
-      "currentHash": "5c98069488809285b6777946a6d98b680a07219f7a2311b766dca27e09b8516c",
-      "affectedBlueprintIds": [
-        "aif-d2-131",
-        "aif-d2-132",
-        "aif-d2-133",
-        "aif-d3-001",
-        "aif-d5-002",
-        "aif-d5-007",
-        "aif-d5-008",
-        "aif-d5-013",
-        "aif-d5-014",
-        "aif-d2-cur-retry-unit-cost-calculation",
-        "aif-d2-cur-throughput-output-length",
-        "aif-d2-cur-total-application-cost",
-        "aif-d2-cur-cost-distribution",
-        "aif-d2-cur-benchmark-portability",
-        "aif-d2-cur-language-token-budget",
-        "aif-d2-cur-provisioned-demand-forecast",
-        "aif-d2-cur-provisioned-idle-cost",
-        "aif-d2-cur-hypothetical-token-price-calculation",
-        "aif-d2-cur-cache-observed-billing",
-        "aif-d2-cur-input-output-token-estimate",
-        "aif-d2-cur-custom-model-serving-check",
-        "aif-d3-cur-quality-cost-constraint",
-        "aif-d3-cur-task-routing",
-        "aif-d3-cur-customization-cost-calculation",
-        "aif-d3-cur-customization-cost-horizon",
-        "aif-d3-cur-distillation-economics",
-        "aif-d3-cur-distillation-generation-expense"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "generatedAt": "2026-10-09T21:24:16.554Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -648,6 +603,12 @@
       "currentHash": "189400b20800a109315a1ef89f706de4d587056a6fd5955533b31855101148bd",
       "approvedAt": "2026-10-09T17:19:02.380Z",
       "note": "Lido BP01 inteiro: stakeholdersupstream/downstream, registrydecidirkeepreuse/requiredrecord/delete, logsagreementsidentificar dependentes e notice strategy. Desligarendpointnãoresolvecompromissos. Não exigidodeletartudoou mantertudo indefinidamente."
+    },
+    {
+      "sourceId": "bedrock-pricing",
+      "currentHash": "5c98069488809285b6777946a6d98b680a07219f7a2311b766dca27e09b8516c",
+      "approvedAt": "2026-10-09T21:24:13.064Z",
+      "note": "Releitura específica do snapshot 5c980694 e releitura integral das 27 questões registrada em docs/bedrock-pricing-review-2026-10-09.md. Valores dos exercícios são hipotéticos, cache/throughput/modelos personalizados já têm condições explícitas e tarifas não alteram os distratores de governança. Nenhuma mudança de gabarito necessária; fingerprints preservados. Leitura da fonte atualizada após conferência do hash, sem aprovação automática de conteúdo desconhecido."
     }
   ]
 }
