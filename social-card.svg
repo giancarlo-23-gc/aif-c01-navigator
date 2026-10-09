@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0c1d36"/>
+  <circle cx="1110" cy="115" r="250" fill="#0c79d8" opacity=".16"/>
+  <rect x="76" y="78" width="60" height="60" rx="14" fill="#2e9eff"/>
+  <rect x="145" y="78" width="32" height="32" rx="8" fill="#68c4ff"/>
+  <g font-family="Segoe UI,Arial,sans-serif" fill="#f8fafc">
+    <text x="76" y="250" font-size="76" font-weight="700">AIF Navigator</text>
+    <text x="80" y="324" font-size="34" fill="#a9d9ff">AWS Certified AI Practitioner · AIF-C01</text>
+    <text x="80" y="415" font-size="26">IA · Modelos de base · Responsabilidade · Governança</text>
+    <text x="80" y="536" font-size="24" fill="#a9b5c7">Prévia de desenvolvimento · Conteúdo em revisão</text>
+  </g>
+</svg>

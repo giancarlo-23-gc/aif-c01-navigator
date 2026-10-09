@@ -1,0 +1,23 @@
+{
+  "version": "aabae0e0d53802433e6c0a693ec79276d86666dc73f4b37c306c7d0fac4e9bbf",
+  "files": [
+    "THIRD-PARTY-NOTICES.md",
+    "app-icon-192.png",
+    "app-icon-512.png",
+    "app-icon.svg",
+    "assets/index-BdwBLqZd.js",
+    "assets/index-Db4ywO73.css",
+    "assets/question-engine-C9W6jiSp.js",
+    "content/content-policy.json",
+    "content/latest.json",
+    "content/review-brief.md",
+    "content/review-queue.json",
+    "content/source-manifest.json",
+    "favicon.svg",
+    "index.html",
+    "manifest.webmanifest",
+    "robots.txt",
+    "sitemap.xml",
+    "social-card.svg"
+  ]
+}

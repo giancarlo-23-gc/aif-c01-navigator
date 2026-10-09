@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://giancarlo-23-gc.github.io/aif-c01-navigator/sitemap.xml

@@ -1,0 +1,13 @@
+{
+  "version": "2026.10.09-aif-preview.10",
+  "reviewedAt": "2026-10-09",
+  "targetQuestionCount": 800,
+  "stage": "release",
+  "principles": [
+    "Questões originais, sem dumps e sem geração em runtime.",
+    "Revisão individual do gabarito e de cada distrator contra fontes oficiais.",
+    "Alterações de fontes suspendem itens associados; monitor não aprova respostas.",
+    "Progresso local isolado do SAA; sem sincronização entre dispositivos.",
+    "Não converter percentual em pontuação escalonada nem prometer aprovação."
+  ]
+}

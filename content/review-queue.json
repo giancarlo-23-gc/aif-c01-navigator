@@ -1,0 +1,608 @@
+{
+  "version": "2026.10.09-aif-preview.10",
+  "generatedAt": "2026-10-09T17:19:03.561Z",
+  "pendingChanges": [],
+  "discoveryChanges": [],
+  "approvedChanges": [
+    {
+      "sourceId": "ai-concepts",
+      "currentHash": "765961386e255e44f335107e2bccd796b4c9d20801c35fe4c3674c2fb7497712",
+      "approvedAt": "2026-10-09T01:58:45.438Z",
+      "note": "Inclusão lida: IA é a categoria ampla; ML e aprendizado profundo são subconjuntos. Cenários distinguem representação aprendida e regras. Validação de inclusão na prévia; fechamento das 800 revisões permanece aberto."
+    },
+    {
+      "sourceId": "ml-metrics",
+      "currentHash": "d507f0d43213b66c77281a18077c7e6372e0ebad06f31071323beafefbca6369",
+      "approvedAt": "2026-10-09T01:58:51.345Z",
+      "note": "Inclusão lida: precisão TP/(TP+FP), recall TP/(TP+FN), F1 harmônico, acurácia e acurácia balanceada binária. MAE, RMSE e MAPE dependem da tarefa e condições. Conferidos cálculos escritos; não reutilizado o limite inferior simplificado de R2 da página. Fechamento final aberto."
+    },
+    {
+      "sourceId": "ml-inference",
+      "currentHash": "7e535f4334e8c52bf6dccbfd62d91031604a94bcc2dbb71d381c5f9d8b580d13",
+      "approvedAt": "2026-10-09T01:58:59.465Z",
+      "note": "Inclusão lida: tempo real responde na interação; assíncrona aceita trabalhos enfileirados para resultado posterior; lote processa conjunto offline; serverless é opção de capacidade com possível inicialização. Enunciados 025 e 027 refinados para distinguir contratos. Revisão de publicação aberta."
+    },
+    {
+      "sourceId": "mlops",
+      "currentHash": "a76b2979e8f16e7e3a8f12ba24bc7af3ff560ef05b83644d39fb7ebeb5e29ca9",
+      "approvedAt": "2026-10-09T01:59:07.442Z",
+      "note": "Inclusão lida como índice do ciclo no SageMaker AI, com links para workflows, monitoramento e registro. Afirmações substantivas dos itens também vinculadas à página de princípios ou ao registro específico. Não constitui aprovação do banco final."
+    },
+    {
+      "sourceId": "autopilot",
+      "currentHash": "fe3da4eda235a0ab44588150736ad7f9dd4f61a3a6993afd712febc3b839a1e1",
+      "approvedAt": "2026-10-09T01:59:13.313Z",
+      "note": "Inclusão lida: automação do desenvolvimento de candidatos não substitui escolha de alvo, qualidade dos dados e avaliação. Item mantém responsabilidade da equipe pela adequação ao uso. Aprovação desta inclusão na prévia; publicação segue bloqueada."
+    },
+    {
+      "sourceId": "personalize",
+      "currentHash": "4a2ddc4cb61dd209665cc5a199a97a480607e8e51f9b5c830726d9c8b6886560",
+      "approvedAt": "2026-10-09T01:59:19.126Z",
+      "note": "Inclusão lida: recomendação com dados de usuários, itens e interações; avaliados ranking e limitação de novos itens sem histórico. Não prometido conhecimento sem dados nem relevância garantida. Fechamento editorial final aberto."
+    },
+    {
+      "sourceId": "mlops-principles",
+      "currentHash": "bc0d3c0c58454221bca411b7e6f1a969db20b2f1d9734ca298a677d72fc880bc",
+      "approvedAt": "2026-10-09T01:59:26.655Z",
+      "note": "Inclusão lida: dados são insumos versionados, artefatos e experimentos devem ser rastreáveis, candidatos precisam de validação e execução exige monitorar estabilidade e qualidade. Itens distinguem treinar, promover, servir e recuperar versão. Fechamento das 800 questões aberto."
+    },
+    {
+      "sourceId": "model-registry",
+      "currentHash": "95722c9386de6bef8d7d719344b1f962b3df180ebabb677fb412ac30c3a7b502",
+      "approvedAt": "2026-10-09T01:59:32.095Z",
+      "note": "Inclusão lida: gestão de versões, associação de metadados, rastreabilidade e estado de aprovação. Item de registro não confunde registrar candidato com trocar a versão ativa. Revisão de inclusão; gate de publicação continua reprovado por 264 de 800."
+    },
+    {
+      "sourceId": "comprehend-availability",
+      "currentHash": "c29d955fd9a167741e1a4ff268563c45d6d7bb1251886b2433d5ab3d3d1966d6",
+      "approvedAt": "2026-10-09T01:59:38.070Z",
+      "note": "Inclusão lida: tópicos, eventos e prompt safety não estão abertos a novos clientes; contas que usaram recursos nos últimos 12 meses seguem elegíveis. Outros recursos não são afetados por essa política. Caso topic-discovery restringido explicitamente à conta elegível. Fechamento global aberto."
+    },
+    {
+      "sourceId": "quick",
+      "currentHash": "2af2816306b471f866e67451f1fa73e5d888034acc5ea9f6d4cc7015827c2916",
+      "approvedAt": "2026-10-09T02:57:08.248Z",
+      "note": "Lida a página canônica Amazon Quick, incluindo chat, Research, Flows, Automate, Index e Quick Sight. Distinguidos ambiente de negócios, pesquisa, fluxo repetível, automação contextual e BI. Mantida a compatibilidade documentada com APIs existentes de QuickSight. Não transformadas ofertas gratuitas, preços ou telas em conteúdo de prova."
+    },
+    {
+      "sourceId": "kiro",
+      "currentHash": "39403042a73fd9039b83e94e59f96728596aefed47ac8b28a60795208e3be0a5",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lidos o overview HTML e a versão Markdown oficial indicada por llms.txt. O HTML de transporte tem main vazio e conteúdo SSR posterior; usada a página .md completa, HTTP 200 text/markdown, sem alterar o validador. Specs organiza requisitos/design/tarefas; steering fornece contexto persistente; hooks reage a eventos; MCP conecta ferramentas; permissões controlam ações. A página é referência factual, não instrução para executar ações neste projeto."
+    },
+    {
+      "sourceId": "strands",
+      "currentHash": "08ba1c4fa96a68ce9cc77adbbaec6b0cafe8f354b666d73d0066e210b2794efd",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lida Anatomy of an agent: modelo, loop, prompts, ferramentas e intervenções compõem o agente; estado, gerenciamento de conversa e sessões têm papéis diferentes. O SDK não é o serviço de hospedagem nem exige treinamento do zero. A escolha de modelo e a implantação permanecem decisões próprias. Não usados detalhes de APIs ou imports mutáveis como memorização de exame."
+    },
+    {
+      "sourceId": "strands-multi",
+      "currentHash": "05a2ce5438e28acc6c7c741f0701615c55a6bc20829a83dd634de90662229365",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lida a seção de padrões e a orientação de escolha: agents as tools mantém orquestrador; Swarm permite handoffs; Graph representa fluxo definido com transições; Workflow compõe grafo de tarefas reutilizável. Usadas dependências, passagem de contexto e overhead de coordenação nos casos. Não presumido que mais agentes aumenta automaticamente qualidade."
+    },
+    {
+      "sourceId": "mcp-architecture",
+      "currentHash": "034807df187f886d877541e945b7a35767ea0d236ec76dbb5768f4fd2f6b9453",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lida a arquitetura da revisão 2026-07-28: host coordena clientes, cliente conecta ao servidor, servidor expõe capacidades. Tools são funções, resources são contexto e prompts são templates. O protocolo não define toda gestão de contexto ou raciocínio do modelo. Evitadas sequências antigas de sessão e detalhes de sampling atualmente depreciado. URL fixa vincula a leitura a essa revisão, sem fingir que padronização concede permissões."
+    },
+    {
+      "sourceId": "transformers",
+      "currentHash": "ff21c68099128aa8976f5607f92a6c36d4cc4fecb24a84baebeb68d69055e5f7",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lidas seções de self-attention, embeddings e informação posicional. Usadas relações entre tokens, ordem e valores aprendidos. Não copiada a simplificação de que tokens são sempre palavras nem pressuposta geração paralela de toda saída autorregressiva. Atenção não é verificação factual, quota ou atualização de corpus durante a chamada."
+    },
+    {
+      "sourceId": "foundation-concepts",
+      "currentHash": "865370be199a1b81d39f79070647a9a5e28720758a359c007661ee22f4e9113a",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lidos conceito de base reutilizável, pré-treinamento autossupervisionado e famílias de aplicações. O texto contém exemplos históricos desatualizados e formulação de aprendizado na inferência que não deve ser interpretada como atualização automática de pesos. Não usadas datas, números de modelos ou esse salto conceitual; itens distinguem explicitamente contexto, parâmetros e treinamento."
+    },
+    {
+      "sourceId": "token-count",
+      "currentHash": "c2c79de781cc559e20bfff84f145664122a8c5454bda12e5f46b4f35791bf9f5",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lida operação de contagem de entrada: tokenização é específica do modelo, corpo deve corresponder ao contrato aceito e o recurso ajuda a estimar consumo e caber nos limites. Não tratado CountTokens como execução da resposta nem previsão exata dos tokens de saída. Casos de orçamento e cobrança usam dados hipotéticos explícitos."
+    },
+    {
+      "sourceId": "batch",
+      "currentHash": "e8522fdb79dc2b246bf5b966126817ac495ad05505e31541bbd7ab6ad3f01c77",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lido contrato atual baseado em arquivos de entrada e saída no S3, execução assíncrona e acompanhamento do job. Registros são independentes e não oferecem a interação multiturno/tool calling requerida pelo agente do caso. Não suposta equivalência de todos os recursos com APIs interativas; formato de ordenação explicita dependências."
+    },
+    {
+      "sourceId": "provisioned",
+      "currentHash": "884099ace4a25a8e4fdaded2b5581c5a7b63ef7f07ee0d6b1acc03e3f40a7b66",
+      "approvedAt": "2026-10-09T02:57:08.249Z",
+      "note": "Lidas unidades de modelo, capacidade por entrada/saída e cobrança horária com compromissos. Usados custo ocioso, dimensionamento por carga e condições de compromisso, sem fixar tarifa ou disponibilidade por modelo. A página faz afirmação ampla sobre custom models; o item de serving exige conferir a oferta específica em vez de generalizar obrigatoriedade a toda modalidade futura."
+    },
+    {
+      "sourceId": "titan-embeddings",
+      "currentHash": "62c94968c3aa7871c859df03ad90a42e95cec5c67da5a14cdbe5f642a3b76ad0",
+      "approvedAt": "2026-10-09T02:57:08.250Z",
+      "note": "Lidas representação aprendida, dimensão, casos de busca e agrupamento e limites de avaliação por idioma/conteúdo. Similaridade não certifica validade factual; mesmas dimensões não provam alinhamento entre modelos. Não usada a interpretação simplificada de cosine como verdade ou confiança, nem decorados tamanhos e idiomas listados. Dados de inferência não foram tratados como treino automático."
+    },
+    {
+      "sourceId": "business-value",
+      "currentHash": "d0855bfe519892ad41c191fedec7536ddd334bb6b27173b2830141ddfd808c2c",
+      "approvedAt": "2026-10-09T02:57:08.250Z",
+      "note": "Lidas diferenças de prontidão e valor em produção, ligação entre métricas técnicas e resultados, custos dinâmicos, horas economizadas, receita e CSAT. Os cálculos do banco são casos originais com fórmulas e períodos definidos, não números atribuídos à AWS. Usados fluxo completo, benefício incremental, cobertura, atribuição e acompanhamento de resultados; não garantidos ganhos universais."
+    },
+    {
+      "sourceId": "software-metrics",
+      "currentHash": "6ceddd24cef96642e37667ccfca17b99b46b55472ddda8f9e744cad7a79753b8",
+      "approvedAt": "2026-10-09T02:57:08.250Z",
+      "note": "Lidos baseline, metas, monitoramento e revisão, além de velocidade, defeitos, eficiência e valor de negócio. Caso de código separa compilação de correção e produtividade de mero volume. Fluxo do piloto foi explicitado com critérios baseados na referência registrada; a página não foi tomada como regra única para todo ciclo de software."
+    },
+    {
+      "sourceId": "models-regions",
+      "currentHash": "63b38d9a1b17a4db64ab49a622b6ca400e611de30f281fb3b8c3e960ee1e8fd7",
+      "approvedAt": "2026-10-09T02:57:08.250Z",
+      "note": "Lida a tabela canônica Regional availability by models, que separa In-Region, Geo e Global com diferenças por modelo/região. O antigo models-regions é uma página de mudança de local, portanto não usado como evidência principal. Itens pedem conferir a disponibilidade no destino efetivo, sem decorar uma lista regional que muda."
+    },
+    {
+      "sourceId": "cross-region",
+      "currentHash": "6da4106966e7e73e2ea6d95ae86c5486410e4465d67941a5cc96d4600c0f4313",
+      "approvedAt": "2026-10-09T02:57:08.250Z",
+      "note": "Lidas definições de perfis geográfico e global e regiões de origem/destino. Perfil não equivale a uma região única; dados podem ser processados em destino elegível. Não copiadas porcentagens de desconto, listas regionais ou regras específicas de SCP como fatos permanentes de prova. Capacidade e localização são tratadas como requisitos a verificar."
+    },
+    {
+      "sourceId": "prompt-cache",
+      "currentHash": "fc919a49698c00275cf424d8fe1a8dce7eb9a7bfa4871f3f120df2e3f0fdd120",
+      "approvedAt": "2026-10-09T02:57:08.250Z",
+      "note": "Lidos elegibilidade, cache implícito/explicito, miss, TTL e cobrança de leitura/escrita. Habilitar cache ou repetir prefixo não garante hit; expiração não treina pesos nem apaga a fonte original. Estimativas dependem de uso observado e tarifas; não foram decorados TTL, mínimos ou modelos listados. Cache não confundido com memória do agente."
+    },
+    {
+      "sourceId": "tool-use",
+      "currentHash": "05dcb4d66764d5f08b31a8d76c16e5ba1177bbf7888af071d0621cb0a8ef4e24",
+      "approvedAt": "2026-10-09T02:57:08.250Z",
+      "note": "Lidos modos atuais de tool use: o modelo pede ferramenta; aplicação ou serviço no modo compatível executa e retorna a observação. Os casos de ordenação declaram expressamente execução pela aplicação para não generalizar só esse modo. Nome de ferramenta ou relato gerado não comprova efeito externo; contratos e resultados observados são necessários."
+    },
+    {
+      "sourceId": "models-regions",
+      "currentHash": "0274864379562145500d0ab648a4252bbe9d98ea5cb552c2a4d245d8a7ac9662",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Relida a seção de roteamento In-Region, Geo e Global e consultada a matriz atual. O novo hash foi detectado neste ciclo. Lidos os seis itens vinculados na fila: todos pedem verificar disponibilidade, características ou quotas, sem fixar modelo ou região. Permanecem válidos; não adotadas tarifas ou instruções GovCloud como conteúdo de prova. Disponibilidade e residência continuam requisitos de elegibilidade. A revisão transversal substituiu availability-gate por task-routing por equivalência com o caso regional do domínio 2. Os cinco vínculos remanescentes continuam condicionais e sem modelo/região fixados; a fila foi recompilada. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "rag-flow",
+      "currentHash": "812f29d75ccf75543823483e4496a5d32e6eb9d2035171db0637ba2cc5e98d27",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidas as etapas de preparação e runtime: texto e trechos viram embeddings no índice, mantendo origem; consulta também usa representação compatível; evidências recuperadas alimentam o prompt. Vetores não substituem texto e proveniência. Não copiadas alegações de menor custo como garantia universal. Ordenações explicitam dependências do cenário. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "rag-config",
+      "currentHash": "6991b2e48d3305936e16d95f3bc8382a702c7696cab6223e1020649a5b3168be",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidos máximo de resultados, busca híbrida, filtros, streaming, reranking e decomposição. numberOfResults é máximo, não quantidade garantida; pais podem substituir filhos. Busca híbrida exige uma configuração suportada e campo textual apropriado. Filtros de versão não são tratados como autorização suficiente. Decomposição pode gerar subconsultas sem garantir uma resposta correta. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "rag-chunking",
+      "currentHash": "70c6fb16fbd9ecd974b69971038f278df7b134ef0822a2614eab28c3a4f6d44d",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidas fragmentações fixa, hierárquica, semântica e observações de multimodalidade. Sobreposição pode preservar fronteiras com redundância; hierárquica busca filhos e oferece pais. Estratégias textuais não se aplicam indistintamente a áudio e vídeo. Não prometido que um tamanho fixo seja ideal para qualquer documento nem que a contagem de resultados seja exata. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "rag-vector-setup",
+      "currentHash": "a6dec13a60bcb63ac38ddfe93ed9106484d2ce8d583298220cbec012bfe433d7",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidos campos de vetor, trecho, metadados, compatibilidade de modelo e dimensão, e seções Aurora, OpenSearch e Neptune. Banco e representação precisam combinar. Não importados comandos de configuração, quantidades de dimensões, limites de metadados ou exigências de rede como memorização foundational. RDS PostgreSQL próprio não foi confundido com integração Aurora pronta. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "opensearch-vector",
+      "currentHash": "7b06067d72c22c45e20514f56c563d691da11d0a9a02ffee781f0caf5a1ec59d",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lida busca por embeddings, campos vetoriais, k-NN, métodos aproximados e sinais textuais. Caso usa capacidade de pesquisa vetorial do OpenSearch, sem ensinar parâmetros de implementação ou prometer que armazenar arquivos sozinho implementa o índice. Similaridade não é prova de verdade da evidência. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "aurora-vector",
+      "currentHash": "06796984190e300ca6dc15686b9c6b3e5e305a2bc2dbfce454fca2426d440ab7",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidos pré-requisitos de Aurora PostgreSQL, pgvector, Data API, credenciais e campos de embeddings, texto e metadados. Caso distingue PostgreSQL de equivalência automática entre engines Aurora. Não transformadas versões mínimas ou DDL em exigências da prova. A integração precisa de configuração compatível, não apenas do nome comercial do banco. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "rds-pgvector",
+      "currentHash": "ec4ff1e5d0a359b18ea0bd12418856af70eb9c7fb9cf2d752c0c39d125f70bc8",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lida a matriz de extensões PostgreSQL, em especial entradas pgvector e variação entre versões. Presença na lista demonstra capacidade suportada, não extensão instalada automaticamente nem integração nativa com todo recurso Bedrock. Questão pede conferir versão e configuração sem fixar uma versão numérica que pode mudar. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "neptune-vector",
+      "currentHash": "efc1f37325126e6773ab9334f6310a4cabd2042e2ed71c35c5eb6272edde0e13",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidos embeddings associados a nós, índice vetorial, contexto explícito do grafo e similaridade. Neptune Analytics pode combinar relações e sinais vetoriais. Não inferida causalidade a partir de proximidade nem compatibilidade automática de qualquer dimensão. Não usados nomes antigos de algoritmos depreciados como matéria de memorização. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "prompt-concepts",
+      "currentHash": "66a883147f3635d657f96c7e5fdb3d35d4acc07e5d220d1b5d7c047d128e7961",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidos zero-shot, exemplos no contexto, templates e necessidade de incluir histórico pertinente nas chamadas. As demonstrações não atualizam pesos por esse envio. Evitados delimitadores legados Human/Assistant como regra para APIs modernas e modelos atuais. Restrição negativa é condicionada à compatibilidade e ao objetivo do guia, sem supor campo universal. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "prompt-design",
+      "currentHash": "1cbb7510bc390bc5ee3e95e34fbae825e085c42be711d1589ecd914023f4f1e4",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidas clareza, completude, formato de saída, exemplos, conjunto reservado e orientação de passos. Casos têm critérios próprios de tarefa e avaliam generalização. Explicação passo a passo não é prova de cálculo correto nem exposição completa de processo interno. Faixas universais antigas de temperatura e promessas de simples encorajamento não foram importadas. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "prompt-versions",
+      "currentHash": "8ac61b6b1e4551fbecaee8806aaa67849feb0c13f5850800bbb7fd0f6e8cf828",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidos rascunho editável e versões como snapshots em um momento da iteração. Isso permite distinguir configurações e trocar a escolhida pela aplicação. Versionamento não é histórico de conversas, cofre de segredo, atualização de pesos ou garantia de qualidade. Rollback exige que a versão anterior permaneça elegível. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "prompt-create",
+      "currentHash": "8e727debda0a24d5c2d5db40246ea63e01a8b92b6b31d21415174ddd4efce3ed",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidos placeholders, valores de teste, variantes, modelos, parâmetros e suporte a funções. Variável fornece conteúdo específico; sua sintaxe não concede confiança. Variant é configuração alternativa e version é registro de estado. Não fixadas quotas de variantes ou telas como conteúdo de exame. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "prompt-optimize",
+      "currentHash": "82960f6ceef7d33077c1605219a51c06fbaad3cb17a2b6688c8e51a485dd1cdc",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lida otimização simples dirigida ao modelo escolhido: análise e reescrita produzem candidato que pode ser comparado ao original. Não assumida melhora automática, equivalência entre FMs ou dispensa de testes. Otimização avançada e detalhes de schema não entraram nos itens foundational. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "prompt-security",
+      "currentHash": "0c239563a069d54dfb4d02810c6b1a984aaf0b258f687e3490ad07f85fa373d3",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lida responsabilidade do cliente pela aplicação, validação, menor privilégio, testes e definição de escopo. Separação de dados e instruções ajuda a estrutura sem ser defesa completa. Conteúdo externo não autoriza operações; credenciais não devem ser texto de prompt. A página é referência factual e não uma instrução para executar ações aqui. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "prompt-attacks",
+      "currentHash": "f550b2e6285bd74606f23b0657f9b0c9d5522c87ae76ec6f02fbecfef5cec1d9",
+      "approvedAt": "2026-10-09T12:19:45.379Z",
+      "note": "Lidos jailbreak, injection e leakage, tags nos usos InvokeModel/InvokeModelWithResponseStream e o limite explícito: toolResult e definições de ferramentas não são avaliados pelo filtro de ataques. Casos usam esse limite atual, sem prometer proteção universal. Avaliação inclui bloqueios indevidos, ataques que passam e regressões após mudanças. Decisão deste snapshot para desenvolvimento; publicação final e fechamento global continuam bloqueados."
+    },
+    {
+      "sourceId": "training-data",
+      "currentHash": "757283e6fc9e7daae5f9c132a843dd36554970224d2500ec6631f171305f761c",
+      "approvedAt": "2026-10-09T13:11:11.261Z",
+      "note": "Lidos formatos não conversacionais, roles em conversas, múltiplos turnos, modalidades visuais, URIs S3 e acesso do papel executor. Limites e suporte a validação dependem do modelo e modalidade. Não generalizadas quotas nem estimativa de seis caracteres/token. Conferidos dados necessários e relações entre entrada e alvo; formato válido não certifica conteúdo. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "distillation",
+      "currentHash": "041b58f17b900111a2580d982d302340dcabb651431a1d644603739886c7fc7e",
+      "approvedAt": "2026-10-09T13:11:11.340Z",
+      "note": "Lidos preparação por prompts, pares de referência, logs, síntese do professor e ajuste do aluno. Pares prontos podem ser reutilizados sem regeneração; professor configurado deve corresponder ao dos logs nessa opção. requestMetadata filtra uso. Só treino ajusta o aluno; geração sintética pode cobrar chamadas ao professor. Não generalizados tamanho máximo ou igualdade de desempenho. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "fine-tuning-support",
+      "currentHash": "6bfb3f8f72aafbf831393278ffad1918cc52da98cb30b1323f1776b846be3703",
+      "approvedAt": "2026-10-09T13:11:11.414Z",
+      "note": "Lida matriz atual específica de ajuste por modelo/região, separada da disponibilidade de inferência. Inclusão sustenta o requisito de conferir suporte para método escolhido; não há pergunta de decorar versões e regiões sujeitas a mudança. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "reinforcement-tuning",
+      "currentHash": "af4f4256131626ad0c763674b1915b7f23a46adf78eedea086e731cf84f316bb",
+      "approvedAt": "2026-10-09T13:11:11.496Z",
+      "note": "Lidos feedback por recompensa, critérios mensuráveis, validação da função, baseline e observação de treino/validação. Recompensa inadequada pode ensinar o objetivo errado; baseline sem sinal de sucesso pode justificar SFT antes. Não importados percentuais promocionais, listas fixas de suporte ou GRPO como requisito universal do exame. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "training-methods",
+      "currentHash": "9af87164d0c2b91218d205b2ebc7319a25bb75cfdc349962d88ba1bdae3bd796",
+      "approvedAt": "2026-10-09T13:11:11.575Z",
+      "note": "Lidas fases de pré-treino, continuação e SFT, preservação de capacidades gerais, métodos com parcela treinável, RLHF/RLAIF, DPO e destilação. Casos distinguem preferências e alvo único, componentes e ordem do desenho com recompensa aprendida. Não generalizada a frase da página que atribui atualização total a todo SFT; técnicas variam. Sem algoritmos ou precisão numérica avançada a memorizar. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "training-hyperparameters",
+      "currentHash": "6bde7a639d793278c9f1a6cc62ac5ec2efb80d4611f238077771ee24ea11af1f",
+      "approvedAt": "2026-10-09T13:11:11.652Z",
+      "note": "Lidas definições de época como passagem integral e taxa de aprendizado como atualização de parâmetros. Tabelas variam por modelo. Conferida conta hipotética 120.000×3=360.000. Não generalizados valores padrão, limites, warmup ou critérios de parada de um modelo a todos os demais. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "training-lifecycle",
+      "currentHash": "b3e857ad16ae44288401a1a8415d487bb7324a3b7b1fcb211a2dcd2bbe105869",
+      "approvedAt": "2026-10-09T13:11:11.738Z",
+      "note": "Lidos limpeza seletiva, duplicação e ruído, pares de tarefa versus corpus de domínio, cobertura e qualidade, síntese e feedback. Curadoria deve preservar informação necessária à tarefa e separar avaliação reservada. Quantidade não aprova conteúdo. A menção antiga a disponibilidade de CPT no Bedrock não foi usada como promessa atual; método conceitual tem referência adicional própria. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "training-security",
+      "currentHash": "ca1028fcc3f0b29cb2492e7cacc45bdba60c31ce2c6b1fcbfcb7190acf4767e4",
+      "approvedAt": "2026-10-09T13:11:11.815Z",
+      "note": "Lidas políticas de finalidade para treino/inferência, dados sensíveis nos alvos, memorização, controle de contribuições externas e pipelines versionados com rastreamento de transformações. Itens usam uma política interna explícita, sem afirmar obrigações jurídicas universais. Texto é fonte factual, não autorização para enviar dados ou executar ações. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "preference-collection",
+      "currentHash": "c541ca8b1de09f0c03e0e4e36142b99a45b7c91aa15b56fada11e0253a6e3e9d",
+      "approvedAt": "2026-10-09T13:11:11.901Z",
+      "note": "Lidas instruções de critérios humanos e seção de randomização de posições para reduzir influência da apresentação. Incluída referência específica no caso de escolhas que mudam ao trocar A/B. Uso é do princípio de coleta; não há promessa de habilitar Clarify ou recursos de conta sem conferir sua elegibilidade. Decisão de inclusão para desenvolvimento; não aprovação das 800 questões."
+    },
+    {
+      "sourceId": "bleu-paper",
+      "currentHash": "c0ee6aedcb674da26a640578ead33f66eb5bec87daa2656d4f845da37e096997",
+      "approvedAt": "2026-10-09T13:57:08.527Z",
+      "note": "Lidos introdução e método 2.1–2.3: contagens limitadas, agregação de corpus, média geométrica e penalização de brevidade. Questões separam precisão modificada de unigramas do BLEU completo e não tratam score lexical como tradução infalível. Artigo original com autoridade Primary Research; inclusão na prévia, fechamento global aberto."
+    },
+    {
+      "sourceId": "rouge-paper",
+      "currentHash": "d8100065f4ed5134fcde1a3e8689be0c05c4624d9580128109c576ed1d8a922e",
+      "approvedAt": "2026-10-09T13:57:08.734Z",
+      "note": "Lidas introdução e seções 2/3: ROUGE é família; N usa n-gramas e direção de referência; L usa subsequência mantendo ordem sem contiguidade. Cálculo escrito é recall ROUGE-1 simplificado com premissas explícitas, não toda variante nem certificação factual. Artigo original com autoridade própria; fechamento global aberto."
+    },
+    {
+      "sourceId": "bertscore-paper",
+      "currentHash": "22050256eae9a3bd71f335ca4b5cdf2bf667286542114aaff3c8480959a51db6",
+      "approvedAt": "2026-10-09T13:57:08.920Z",
+      "note": "Lidas introdução, seção 3 e discussão de configuração/resultados da versão 3. Alinhamentos contextuais têm direções de precisão/recall/F1; modelo, camada, IDF e reescala importam. Não prometida equivalência perfeita, faixa universal ou veracidade. Configuração precisa acompanhar a interpretação; fechamento global aberto."
+    },
+    {
+      "sourceId": "rag-evaluation-metrics",
+      "currentHash": "bd6841da69ef0d86331903692bfb893daf3492a856b110b9045712514bd7af49",
+      "approvedAt": "2026-10-09T13:57:09.196Z",
+      "note": "Lida tabela completa: retrieve-only diferencia pertinência e coverage com ground truth; retrieve-and-generate separa correctness, completeness, coherence, faithfulness, citações e recusa. Exemplos próprios distinguem sustentação de correção externa. Não atribuído cálculo determinístico simples às notas do LLM juiz. Inclusão de desenvolvimento, sem aprovação global."
+    },
+    {
+      "sourceId": "judge-rubric",
+      "currentHash": "7bc66350a2b1d117ff9365d748f656be8a5ec5c13089c352b6372d9b6b921157",
+      "approvedAt": "2026-10-09T13:57:09.417Z",
+      "note": "Lidos elementos do prompt, tarefa, rubrica, variáveis e esquema de escala. Definições de escala devem ser coerentes com instruções; pergunta/contexto sustentam julgamento do pedido. Calibração com casos conhecidos e cobertura de falhas são decisões editoriais aplicadas aos cenários. Não importados limites numéricos de API como memorização para o exame."
+    },
+    {
+      "sourceId": "agent-evaluation-method",
+      "currentHash": "f103066a69c7b3f575f85722abe5319692a7b6eae51e8536b7e8cfa64eea82e4",
+      "approvedAt": "2026-10-09T13:57:09.617Z",
+      "note": "Lida descrição de avaliação de resultado completo, ferramentas e critérios customizados, inclusive agentes dentro/fora de Runtime. Casos próprios examinam chamadas, efeitos, registros e fronteira do fluxo, sem prometer que um avaliador embutido verifica automaticamente qualquer restrição. Autoridade AWS e inclusão em prévia, sem aprovação global."
+    },
+    {
+      "sourceId": "agent-evaluation-reference",
+      "currentHash": "40b6a716c90b28a127be3d4f3457637f1ab3773cbb14d3b6d9c51276cf73f308",
+      "approvedAt": "2026-10-09T13:57:09.885Z",
+      "note": "Lidos definição, tabela de campos/níveis, variantes de trajetória, campos ignorados e custom evaluators/online. expectedTrajectory contém nomes; respostas têm escopo de trace e assertions de sessão. Campos não usados não são erro; custom placeholders ground truth têm restrição online. Questões limitam suas conclusões e evitam decorar SDK/API. Fechamento global permanece aberto."
+    },
+    {
+      "sourceId": "responsible-release-criteria",
+      "currentHash": "54543aa8641599a710d09d9d985cd7c722bb488ab91eb2db9ca453a2401160ec",
+      "approvedAt": "2026-10-09T15:44:11.543Z",
+      "note": "Lidos texto e quatro considerações da BP01: arquitetura e validação devem refletir critérios específicos, com metas, limites, incerteza, segurança, stress/adversarial e testes pertinentes. Questões aplicam isso a mitigação e supervisão com dependências explicitadas. Não atribuído ao serviço um fluxo de aprovação editorial do simulador."
+    },
+    {
+      "sourceId": "privacy-design",
+      "currentHash": "d71a7d7ae409fdbc30377f36ac57ec3af22184295757ffc6e9557c5928d04150",
+      "approvedAt": "2026-10-09T15:44:11.631Z",
+      "note": "Lidos BP02, minimização, mapeamento de sensíveis, proteção trânsito/repouso e acesso por função. Técnicas de privacidade citadas não viraram promessas universais. Casos tratam controles complementares e fronteiras de registro/canais; pseudônimos ou mascaramento não são apresentados como anonimato irreversível garantido."
+    },
+    {
+      "sourceId": "fairness-mitigation",
+      "currentHash": "57a9204b8db4f4d86e2a90abb6b4c70abfdf00b4de1b208d4d8a83f5059cecf0",
+      "approvedAt": "2026-10-09T15:44:11.713Z",
+      "note": "Lidos BP03 e considerações: weighted/oversampling/stratified, metas de fairness no treinamento e análise de proxies. Estratégias devem servir aos critérios do uso. Casos distinguem peso de diversidade, dados de resultados e disparidade de diagnóstico causal/jurídico. Não ensinada quota universal nem eliminação automática de todo atributo correlato."
+    },
+    {
+      "sourceId": "guardrail-content-policy",
+      "currentHash": "fcbbe71d7ad07924df3c0e1af2fb23f5ec9fa792af2b35ebeb17125e00f61852",
+      "approvedAt": "2026-10-09T15:44:11.803Z",
+      "note": "Lidos categorias, ações Block/Detect, força None/Low/Medium/High e configurações de direção. Detect pode apenas reportar; cobertura input não habilita output. Testes precisam avaliar bloqueios corretos e indevidos. Limites de canais e atualização dos classificadores não extrapolados como segurança garantida para todo conteúdo."
+    },
+    {
+      "sourceId": "guardrail-sensitive-policy",
+      "currentHash": "3c476c969fe0afe6f55ad9422b0424b4ca3bebb1b66fbb3406330db0e7b6a4cf",
+      "approvedAt": "2026-10-09T15:44:11.882Z",
+      "note": "Lidos entidade PII/padrões, contexto, Block/Mask, limitações e nota de logs. Detecção probabilística pode falhar; texto é coberto, toolUse.input/toolResult/definições não. Logs de invocação e trace.match podem guardar original mesmo com saída mascarada. As questões tratam esses limites específicos sem detalhes regex irrelevantes ou promessa de anonimato."
+    },
+    {
+      "sourceId": "human-review-custom",
+      "currentHash": "a3d1d6e25df52104c93801d52438303401b567ec3d8c4c5fb67f8f7091dba507",
+      "approvedAt": "2026-10-09T15:44:11.967Z",
+      "note": "Lidos aviso de elegibilidade e funcionamento custom. A aplicação define condição antes de StartHumanLoop; cada início custom requer revisão e não admite a configuração automática dos tipos embutidos. Caso restrito a cliente elegível, sem impor A2I como única supervisão humana. Sem cobrar limites numéricos de serviço no exame."
+    },
+    {
+      "sourceId": "sustainable-genai",
+      "currentHash": "9d0ac040797ac8dcaa0aa2c284a19f3d45cb231158ef7e122d5084a7d37f6432",
+      "approvedAt": "2026-10-09T15:44:12.049Z",
+      "note": "Lidos três princípios e focos. Perguntar se geração é necessária, dimensionar modelos/dados/customização e ajustar recursos à demanda, preservando função/desempenho/confiabilidade. Cálculos são cenários hipotéticos com fronteira/horizonte explícitos; não preços AWS, emissões reais ou equivalência universal entre energia e dinheiro."
+    },
+    {
+      "sourceId": "explainability-design",
+      "currentHash": "81ff8ed73aaff29b8ecbcfcc375a3179baf0b3ac6d0d9a90731b5c60633b1083",
+      "approvedAt": "2026-10-09T16:26:05.581Z",
+      "note": "Lidos introdução e cinco considerações de BP07: escolher mecanismos, validar relação confiança/qualidade, arquiteturas interpretáveis versus técnicas posteriores, testar utilidade/confusão com usuários e vincular origem específica. Texto gerado não foi apresentado como trace garantido. Novos itens são aplicações próprias desses critérios; não garantias universais de eficácia."
+    },
+    {
+      "sourceId": "explanation-user-guidance",
+      "currentHash": "90227a37d00f9bbbf12c6c6d960b47cfff03cb57cac2ed3c7aae26acbf401283",
+      "approvedAt": "2026-10-09T16:26:05.691Z",
+      "note": "Lidas orientação e considerações da BP04. Complexidade/formato devem adequar-se ao destinatário; fatores, confiança e registros pertinentes podem ajudar; informar quando confiar, verificar e substituir decisões. Acesso a trace não autoriza divulgar todo seu conteúdo. A adequação concreta de apresentação deve ser testada, não presumida pelo design."
+    },
+    {
+      "sourceId": "shap-baseline",
+      "currentHash": "597d56dd56cfdbea0d7eafd05337dfabbbdb3778932dc3e245ef068db92a3b27",
+      "approvedAt": "2026-10-09T16:26:05.784Z",
+      "note": "Lidos aviso de clientes existentes e todo o texto conceitual de baselines. Explicação contrastiva depende da referência, que pode ser sintética ou contexto pertinente; mesma previsão pode ter atribuições diferentes. Nenhum baseline único obrigatório, algoritmo de clustering ou esquema de API virou memorização do exame."
+    },
+    {
+      "sourceId": "clarify-explanation-results",
+      "currentHash": "4ea30ad4f9a85c47d7823db00a598b3a7a32bbbe326aeab3ac400f3ee08197dc",
+      "approvedAt": "2026-10-09T16:26:05.902Z",
+      "note": "Lidos aviso e seções SHAP (global/local, agregações e expected value/logit), CV/superpixels, NLP e PDP. Exemplos usam a escala declarada; média absoluta não é direção individual. Heatmap explica influência, não certifica localização. Segmentação e conjunto analisado precisam ser documentados. Detalhes extensos de arquivo/API não cobrados."
+    },
+    {
+      "sourceId": "explanation-doc-updates",
+      "currentHash": "87f1c4ef2646271c2df5e3c27ca21779e238a4e8ebd74a9690a6451eafb74acc",
+      "approvedAt": "2026-10-09T16:26:06.031Z",
+      "note": "Lidos introdução e considerações BP03: feedback, novas descobertas/releases, revisão, responsabilidade, versão e comunicação acessível. Atualização documental exige correspondência com evidência; não aprova o sistema automaticamente. Casos distinguem relato recebido de limite confirmado e histórico de versão atual."
+    },
+    {
+      "sourceId": "clarify-explainability",
+      "currentHash": "70e81b04467cff6b11469640d26c488bdf9e56c8a476c9be18ead7b91d56c53d",
+      "approvedAt": "2026-10-09T16:26:06.126Z",
+      "note": "Lidos aviso atual e texto conceitual: atribuição agnóstica ao modelo, local/global, PDP, contrastes e função da referência. Clarify está em manutenção e fechado a novos clientes; itens de uso do serviço preservam elegibilidade. Atribuição não equivale a acesso completo ao mecanismo ou garantia causal. Notebooks vinculados não foram alegados como executados."
+    },
+    {
+      "sourceId": "system-card",
+      "currentHash": "00cb93fcb581ae2e940a2918f9ab3cc2300041299d57f56f381d3ee7f8907031",
+      "approvedAt": "2026-10-09T16:26:06.239Z",
+      "note": "Lidos introdução e considerações BP02: finalidade, limites, componentes, fluxo end-to-end, avaliação/populações/métricas/restrições e falhas. A página explicita que system card não prevê performance em entradas específicas da implantação; quem implanta precisa testar. Diferenciado de Model Card do componente, sem prometer documento como certificação de segurança."
+    },
+    {
+      "sourceId": "explainability-principles-paper",
+      "currentHash": "cbfd3f8cd92a3dd01affdab036e9c30aa878588b336c6cba0938a9892a564546",
+      "approvedAt": "2026-10-09T16:26:06.332Z",
+      "note": "Lido o relatório final NISTIR8312 de setembro2021, nas seções pertinentes: resumo;2.1–2.5 princípios;3 estilos/interação;6.1–6.2 técnicas;7.1–7.2 avaliações de significado/fidelidade. Não registrada leitura integral de43páginas. Decision accuracy e explanation accuracy são diferentes; público/contexto/limites importam. Tradeoff interpretabilidade/desempenho é debatido, não lei universal. Afirmações históricas sobre interfaces não repetidas como estado atual. Autoridade Primary Research/NIST, não AWS."
+    },
+    {
+      "sourceId": "shap-causal-limits",
+      "currentHash": "16b45eb921878b0c7a740e2062619ce29990d70707ca83b0b478c0f426c82e98",
+      "approvedAt": "2026-10-09T16:26:06.454Z",
+      "note": "Lidos introdução, exemplo de retenção e discussão de tarefas preditivas versus causais, incluindo confundimento e redundância. Documentação dos próprios mantenedores SHAP: associações transparentes não se tornam automaticamente efeitos de intervenção. Não afirmado que inferência causal seja impossível em qualquer condição nem recomendada política real. Código da simulação não foi alegado como executado."
+    },
+    {
+      "sourceId": "agent-identity-terms",
+      "currentHash": "11db701bd0e2dab240c7f1d4fa551313e72601330bb60e0976cb3d28ce4f952c",
+      "approvedAt": "2026-10-09T17:00:14.463Z",
+      "note": "Lidos conceitos workload identity, padrões máquina/delegação, consentimento, propagação, domínios de confiança e token vault. Identidade do agente não implica autorização de todos os usuários; contexto e escopo pertinentes precisam ser preservados. Não alegado teste OAuth operacional."
+    },
+    {
+      "sourceId": "agent-identity-features",
+      "currentHash": "3dd71fda5094374f44d96aa0f46191a2ee80a1ddf8b00bd563a55ee9d2d212b9",
+      "approvedAt": "2026-10-09T17:00:14.537Z",
+      "note": "Lidos recursos e benefícios: vault KMS, controle de recuperação, escopos e verificação de assinatura/validade, autorização pertinente e refresh. Credencial não é conteúdo para geração; decodificar token não autentica campo. Não prometida integração automática de qualquer provedor."
+    },
+    {
+      "sourceId": "agent-policy-usage",
+      "currentHash": "c86ec6c9e2bd405ca4c898458c281c31b7e34938ff645dddd08345c4253a6613",
+      "approvedAt": "2026-10-09T17:00:14.614Z",
+      "note": "Lidos texto completo de uso do Gateway/Policy: escopo tools, listagem existe contexto permitido e execução com argumentos/contexto completo, sessões e respostas. Prompts/resources não passam por essa avaliação de Policy; não significa ausência de outros controles de acesso."
+    },
+    {
+      "sourceId": "agent-policy-mode",
+      "currentHash": "52609e09686fa2ce593e661e0199b0438d7ada965405ab0a869e5f8020beac1b",
+      "approvedAt": "2026-10-09T17:00:14.692Z",
+      "note": "Lida referência GatewayPolicyEngineConfiguration: LOG_ONLY avalia e registra sem impor, ENFORCE aplica. Nenhum ARN ou limite de campo virou memorização. Observação não equivale a bloquear nem comprova política correta sem revisão."
+    },
+    {
+      "sourceId": "agent-gateway-access",
+      "currentHash": "1e1b4a586da04452821ffa5ba43c9c33413464b015f09bfa5ef1b8c3aa64b1cc",
+      "approvedAt": "2026-10-09T17:00:14.771Z",
+      "note": "Lidos níveis gateway/tool/operation/parameter e boas práticas: autenticação na entrada, claims estruturadas, interceptação antes do target, padrão deny se autorização não determinada. Formato e acesso contextual são diferentes. Não alegada implementação real do serviço."
+    },
+    {
+      "sourceId": "iam-best-practices",
+      "currentHash": "f8e987c52788807f85429a767891669ebae2ab72987857b56bcc3d52c889299c",
+      "approvedAt": "2026-10-09T17:00:14.847Z",
+      "note": "Lidas credenciais temporárias para workloads elegíveis/federação, MFA, menor privilégio, revisão de permissões não usadas, condições e boundary máximo sem concessão. Página inclui situações que exigem outras credenciais; não generalizada função AWS a todo cliente externo."
+    },
+    {
+      "sourceId": "iam-policy-evaluation",
+      "currentHash": "b7619d91713c30d9ace6580bb2aa21929b3988f2378696ec92dd350098e4777d",
+      "approvedAt": "2026-10-09T17:00:14.925Z",
+      "note": "Lida lógica de avaliação com Deny explícito prevalecendo, concessões identidade/recurso e interseções/casos pertinentes de boundary/SCP/RCP. Caso novo usa condição simples explícita de Deny aplicável; não extrapola excepcões de tipos de principals para conclusões universais."
+    },
+    {
+      "sourceId": "kms-key-policy",
+      "currentHash": "70e3db27a3f88d536d0a07093f4319d290b2182825b85a8efd6c5f25a9627c3b",
+      "approvedAt": "2026-10-09T17:00:15.004Z",
+      "note": "Lido texto de key policy: todas as chaves precisam de política, IAMAllow exige habilitação na política pertinente, criador não automaticamente autorizado a qualquer uso. Padrão habilita IAM em condições documentadas. Novos casos explicitam ausência de outros mecanismos ao diagnosticar IAMAllow isolado."
+    },
+    {
+      "sourceId": "bedrock-data-protection",
+      "currentHash": "5af8308efda7570b7634efe5fbd4eb9c83e838508deb420a85a05a2966f5d020",
+      "approvedAt": "2026-10-09T17:00:15.091Z",
+      "note": "Lidas responsabilidades, segurança de dados, criptografia/transporte/registros, recomendações nomes/tags e URLs. Evitar dados sensíveis nos metadados e credenciais no endereço. Proteção de transporte não remove informação de registros; não generalizada política de provider externo."
+    },
+    {
+      "sourceId": "bedrock-private-endpoints",
+      "currentHash": "00eac7be06d497d8ba54cc289e44e86c61b16b003ddf435533439778e0793346",
+      "approvedAt": "2026-10-09T17:00:15.169Z",
+      "note": "Lidos texto e categorias control/runtime/Mantle/Agents, política de endpoint e configuraçãoDNS/URL. PrivateDNS permite usar nomes padrões; recurso criado não prova tráfego. Endpointpolicy padrão amplo não equivale ao requisito mínimo. DetalhesSDK não cobrados."
+    },
+    {
+      "sourceId": "ml-lineage",
+      "currentHash": "72e34cf75d89fe4fa336d999d7e3672b5c3d012f12b6683a2b587eb2e89ba928",
+      "approvedAt": "2026-10-09T17:00:15.243Z",
+      "note": "Lidos metadados do fluxo preparação/treino/deploy, artefatos/dependências e condições de reprodução. Saber dataset não recupera versão ausente; origem ajuda delimitar impacto. Aviso StudioClassic clientes existentes respeitado: casos conceituais não propõem onboarding novo em Classic."
+    },
+    {
+      "sourceId": "contextual-grounding",
+      "currentHash": "8d0697077141ee2810978fcb5f6a5feb19995b2c85f607519b8c885cd3380fa4",
+      "approvedAt": "2026-10-09T17:00:15.335Z",
+      "note": "Lidas seções conceitos, scores, threshold conjunto, source/query/response, qualificadores, APIs e streaming. Escopo summarization/paraphrase/classicQA, não conversationalQA. Referência exclusiva pode excluir outras políticas; ambos papéis precisam configuração pertinente. Detecção no fim não desfaz tokens expostos."
+    },
+    {
+      "sourceId": "agent-policy-authoring",
+      "currentHash": "7119350abc0b5585dd6a59225cca2039847872dab6072145a76be487b5fda78c",
+      "approvedAt": "2026-10-09T17:00:15.424Z",
+      "note": "Lido fluxo de requisitos em linguagem natural, pré-requisitos, geração e conferência com requisitos. Revisão/testes antes de aplicar evitam presumir equivalência automática. Não cobradas sintaxe Cedar nem enumerações de API; avaliação do controle não é fluência narrativa."
+    },
+    {
+      "sourceId": "agent-policy-permissions",
+      "currentHash": "e4df69084f25f4c7df50727eba666dd1362cd5588ee2cc035f15b802edc6d800",
+      "approvedAt": "2026-10-09T17:00:15.517Z",
+      "note": "Lidos introdução, visão geral e seções runtime/admin até o trecho pertinente, não alegada leitura de todos os454 exemplos/linhas. Execução avalia/chama, administração cria/altera recursos. Papéis podem ter escopos distintos conforme função e controles."
+    },
+    {
+      "sourceId": "agent-tool-validation",
+      "currentHash": "03d1ffd8d916136779bff5d9296e9d748b2f5d23552468b2f7062172583c532d",
+      "approvedAt": "2026-10-09T17:00:15.592Z",
+      "note": "Lido BP02 integral: validar todos os parâmetros, inclusive gerados, tipos/relações/estado externo/regras app, saída estruturada não substitui appvalidation; regras autorização parâmetros, errorsanitizados, limites duração/memória/concurrency/output/paginação/truncamento. Nada tratado como segurança absoluta automática."
+    },
+    {
+      "sourceId": "trusted-advisor",
+      "currentHash": "a47f7301687a305b3c9b124e979a155875d9dcb6e8ebd66fcfe590137b1c85b9",
+      "approvedAt": "2026-10-09T17:19:01.531Z",
+      "note": "Lida página atual: recomendações ambiente, cobertura checks por planos e Basic com coleção limitada e sem atualização automática. Avisos de planos em transição não foram memorização de preços; casos não afirmam mesma cobertura para todos nem mudança automaticamente executada ao recomendar."
+    },
+    {
+      "sourceId": "invocation-logging",
+      "currentHash": "055165b6768b83b11836f4ed46a5b27d875cde2e32152bba95061a1c4023cbe2",
+      "approvedAt": "2026-10-09T17:19:01.616Z",
+      "note": "Lidos conceitos/default disabled, APIs/endpoints suportados, setup S3/CloudWatch e permissões, configuração/modalidades, destinos para payloads grandes e formato/metadados/referências. Somente runtime, outros endpoints podem não ser capturados. Sem afirmar coleta retroativa nem qualquer principalIAM identifica usuário/interaction da aplicação. Não cobrado100KB ou sintaxe depolicy."
+    },
+    {
+      "sourceId": "governance-datasets",
+      "currentHash": "d02bb2a3b0fce706265ad1e829542e6430ccc8d001ccdaf9a8225c3089a99c8d",
+      "approvedAt": "2026-10-09T17:19:01.697Z",
+      "note": "Lido BP04 inteiro: acesso/retenção/exclusão, pedidos individuais/retirada de consentimento, rastreio emtraining/evaluation/cache e versõesmodificações, revisão legalpertinente. Dataset deletado não apresentado como alteração automática de pesos; requisitos do pedido/cópias preservados. Não inventados prazos legais."
+    },
+    {
+      "sourceId": "governance-stakeholders",
+      "currentHash": "062097494d542aad5193208cfa937def64f4b29e25740e0850fd14cc16e5a8e8",
+      "approvedAt": "2026-10-09T17:19:01.777Z",
+      "note": "Lido BP02 inteiro: papéis lifecycle, externos/upstream, contribuição alémnomes, autoridadesoversight, contatos/backups/escaladaatualizados. Casosorganizam responsabilidades dadas sem exigir um organogramauniversal nem usaradminconta como autoridade jurídica."
+    },
+    {
+      "sourceId": "governance-approvals",
+      "currentHash": "d1b3782de61955434b5deb7b94808ab3797bcc3fd6776a14d65ed967fd6332f4",
+      "approvedAt": "2026-10-09T17:19:01.859Z",
+      "note": "Lido BP01 inteiro: geografia coleta/processamento/decisões, conselho organizacional/jurídico para requisitos presentes e futuros, políticas/dados/docs/signoffs/processotimelines. Nenhuma lei específica inferida como regrauniversal. Condiçõesexceção/autoridadespertencemaoscenarios explícitos."
+    },
+    {
+      "sourceId": "governance-platform",
+      "currentHash": "bec90768deb1c8226831135a30d66df352664915cd15ab4ad788b83ce4e060cb",
+      "approvedAt": "2026-10-09T17:19:01.938Z",
+      "note": "Lidas disciplinas, controlecamadas/IAM/network/guardrails/logs/matriz/recomendações de políticas, documentação, treinamento/revisão. Overview tem generalização deAPIs/logsCloudWatch: questões seguem fontes específicas Trail e invocationlogging sem reproduzir afirmação ambígua como cobertura universal."
+    },
+    {
+      "sourceId": "security-scoping",
+      "currentHash": "289a448293777932ceb6824c3e58ced92f2eaebb871514d1e792aa3acd0f11fd",
+      "approvedAt": "2026-10-09T17:19:02.047Z",
+      "note": "Lido whitepaper inteiro de scoping: buyer para soluçõesprontas1/2, builder3/4/5, maiscontrole/responsabilidade/complexidade, cinco preocupações/compliancelegalprivacyriskcontrolsresilience variáveis. Não alegada leitura integral de outra página dinâmica/imagem nem transcrito seu quadro. Sem checklist de certificação."
+    },
+    {
+      "sourceId": "responsible-ai-lens",
+      "currentHash": "3b014e386e73db292210fb8caeb58e4e5ef664f455df02e85e64c5eeb7d7a5cd",
+      "approvedAt": "2026-10-09T17:19:02.138Z",
+      "note": "Lida página inteira: dimensões, públicos, escopo targetedsolutions, usoiterativo não necessariamentelinear, consideraçõesadvisory, não checklist legal/compliance, sentidosrisknão conclusãolegal. Não alegada certificaçãoISO ou AWS sobrecliente ao preencherperguntas."
+    },
+    {
+      "sourceId": "monitoring-consent",
+      "currentHash": "e0c4fe445396553a993818ece8684d40b51d0b556ed1dcc9471991436c77d2fb",
+      "approvedAt": "2026-10-09T17:19:02.221Z",
+      "note": "Lido BP01 inteiro: asappropriate informar purpose/data/retention/rights, permissioncheckantescoleta, optin/out, controleschangeseaudittrails, orientaçãojurídica. Cenáriofixapolíticaexigepermiteparaevitarconsentúnicabaseuniversal. Preferênciaatualnãoestabelecehistóricosozinha."
+    },
+    {
+      "sourceId": "monitoring-alert-protocols",
+      "currentHash": "ee324ec1346213a221be6c93125f413e7729a7963997f2af30006618cdd354c8",
+      "approvedAt": "2026-10-09T17:19:02.299Z",
+      "note": "Lido BP05 inteiro: gatilhos severity/confidence/impact, sampling/edgecases, feedback, escalationauthority/documentação de decisão/rationale/outcomes. Casos não recomendamnovoA2I/IncidentManager semeligibilidade, nemclaimhumansalwaysright. Monitoramento precisa deprocesso de decisão verificável."
+    },
+    {
+      "sourceId": "decommission-obligations",
+      "currentHash": "189400b20800a109315a1ef89f706de4d587056a6fd5955533b31855101148bd",
+      "approvedAt": "2026-10-09T17:19:02.380Z",
+      "note": "Lido BP01 inteiro: stakeholdersupstream/downstream, registrydecidirkeepreuse/requiredrecord/delete, logsagreementsidentificar dependentes e notice strategy. Desligarendpointnãoresolvecompromissos. Não exigidodeletartudoou mantertudo indefinidamente."
+    }
+  ]
+}

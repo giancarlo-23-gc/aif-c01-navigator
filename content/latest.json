@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.10.09-aif-preview.10",
+  "publishedAt": "2026-10-09T17:13:33.802Z",
+  "sourceManifestVersion": "2026.10.09-aif-preview.10",
+  "files": {
+    "source-manifest.json": "a17980a49828b6004a222f58a236cd64a5a67e363305d22dc55ee3e0ce34398e",
+    "review-queue.json": "cd8c80d5a8e64884d4dc4633ca3f6d4220a14ac740201917871b23c706cbe16d",
+    "content-policy.json": "b778c51886dd998d484f487ae4358cff772f049f87d25040a656245fcbb7a362"
+  }
+}
