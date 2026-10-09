@@ -1,11 +1,13 @@
 # AIF Navigator
 
-Repositório público reservado para a distribuição compilada e feedback do novo simulador AWS AIF-C01 em português.
+Simulador em português para AWS Certified AI Practitioner (AIF-C01), com a experiência e a estrutura do SAA Navigator em um projeto independente.
 
-**Em desenvolvimento; nenhuma versão do aplicativo foi publicada aqui.** O conteúdo final terá 800 questões originais após revisão e validação. O código-fonte e os registros editoriais permanecem privados. Este repositório não substitui o SAA Navigator.
+**Conteúdo e validação concluídos; publicação do aplicativo ainda não ativada.** Este repositório recebe a distribuição compilada e feedback. O código-fonte e os registros editoriais permanecem privados.
 
-Em 09/10/2026, a prévia privada tem 706 questões de desenvolvimento e 370 registros individuais de revisão. As quatro tarefas de aplicações e as duas de IA responsável têm 56 itens cada. O novo bloco trata explicações locais/globais, referências, fidelidade, documentação de modelo/sistema e compreensão/contestação pelo usuário. Faltam 94 novas questões de governança, além do fechamento editorial do banco inteiro. Há 116 fontes e 95 leituras específicas, sem aprovação global.
+O banco tem **800 questões originais**, cinco domínios e quatro formatos: resposta única, seleção múltipla, ordenação e correspondência. Há 800 revisões individuais por Codex, sem revisão humana independente, e 142 leituras específicas de fontes primárias vinculadas aos snapshots atuais. Cada questão tem explicações, exemplo e referências.
 
-O [CI da prévia 8](https://github.com/giancarlo-23-gc/aif-c01-navigator-source/actions/runs/37959746389) foi aprovado com 50 testes de navegador e Lighthouse 97/100/100/100, incluindo a regressão que corrige o falso timeout de inicialização da notificação antiga de `69fcdb2`. A matriz local passou em 71 testes sem retry, Lighthouse 94/100/100/100. A ocorrência local da prévia 7 permanece registrada no relatório privado, sem atribuir uma correção de causa não comprovada. O link do CI exige acesso ao repositório privado. Testes emulados não são testes em aparelhos físicos; esta validação não libera a distribuição final do aplicativo.
+A experiência inclui simulado de 65 itens em 90 minutos, treino completo e treino rápido. A seleção foi validada para 12 simulados de 65 sem sobreposição e 20 itens restantes para treino rápido quando outras sessões ainda não consumiram questões. Os modos compartilham as exclusões. O aplicativo é gratuito, sem cadastro, com PWA offline, progresso local e controles de exportação/importação/exclusão.
 
-O site futuro será gratuito, sem cadastro, com PWA offline e progresso local. Não há promessa de aprovação ou ausência absoluta de erros. Projeto independente, sem afiliação AWS.
+A [validação final no CI](https://github.com/giancarlo-23-gc/aif-c01-navigator-source/actions/runs/37969543245), commit `7113dc0`, passou com 50 testes de navegador sem retry, critérios editoriais completos e auditoria de produção sem vulnerabilidades conhecidas. Lighthouse: 95/100/100/100; desempenho pela mediana de três perfis novos (95/90/96), demais categorias pelo mínimo, mantendo os limites 80/95/95/90. A matriz local passou em 71 testes sem retry, Lighthouse 96/100/100/100. O link do CI exige acesso ao repositório privado. Testes emulados não são testes em aparelhos físicos.
+
+A publicação depende da confirmação do destino e da configuração exclusiva do AIF. A documentação deste repositório não significa que já existe um site publicado. Projeto independente, sem afiliação AWS e sem promessa de aprovação ou ausência absoluta de erros.
