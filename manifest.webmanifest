@@ -2,7 +2,7 @@
   "name": "AIF Navigator — Simulador AIF-C01",
   "short_name": "AIF Navigator",
   "id": "./",
-  "description": "Treino independente em português para o exame AWS AIF-C01. Prévia em desenvolvimento.",
+  "description": "Simulador independente em português para AWS AIF-C01: 800 questões, explicações e treino offline.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
