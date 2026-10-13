@@ -1,6 +1,6 @@
 {
   "version": "2026.10.10-aif.1",
-  "generatedAt": "2026-10-12T19:49:48.888Z",
+  "generatedAt": "2026-10-13T17:37:20.119Z",
   "pendingChanges": [
     {
       "sourceId": "bedrock-pricing",
@@ -59,6 +59,28 @@
         "aif-d2-cur-regional-model-availability",
         "aif-d2-cur-quota-versus-reserved-capacity",
         "aif-d3-cur-modality-gate"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "rag-vector-setup",
+      "title": "Compatibilidade de índices para Knowledge Bases",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-setup.html",
+      "tier": "service",
+      "detectedAt": "2026-10-13T17:37:19.223Z",
+      "currentHash": "3385c4f1a64f955bf5e815e7cfe765217c8df03fe85a2206759811f99dba0ac5",
+      "affectedBlueprintIds": [
+        "aif-d3-004",
+        "aif-d3-cur-embedding-space-consistency",
+        "aif-d3-cur-embedding-dimension-migration",
+        "aif-d3-cur-vector-original-text",
+        "aif-d3-cur-aurora-vector-choice"
       ],
       "status": "pending",
       "requiredActions": [

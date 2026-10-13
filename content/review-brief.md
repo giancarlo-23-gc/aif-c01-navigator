@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **2**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **3**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Modelos de cobrança Bedrock
 
@@ -20,6 +20,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html
 - Detectada em: 2026-10-12T19:49:48.043Z
 - Questões afetadas: aif-d3-001, aif-d2-cur-bedrock-model-feature-check, aif-d2-cur-regional-model-availability, aif-d2-cur-quota-versus-reserved-capacity, aif-d3-cur-modality-gate
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Compatibilidade de índices para Knowledge Bases
+
+- Fonte: https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-setup.html
+- Detectada em: 2026-10-13T17:37:19.223Z
+- Questões afetadas: aif-d3-004, aif-d3-cur-embedding-space-consistency, aif-d3-cur-embedding-dimension-migration, aif-d3-cur-vector-original-text, aif-d3-cur-aurora-vector-choice
 
 Checklist:
 
