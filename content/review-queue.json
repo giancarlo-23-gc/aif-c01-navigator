@@ -1,96 +1,7 @@
 {
-  "version": "2026.10.10-aif.1",
-  "generatedAt": "2026-10-13T17:37:20.119Z",
-  "pendingChanges": [
-    {
-      "sourceId": "bedrock-pricing",
-      "title": "Modelos de cobrança Bedrock",
-      "url": "https://aws.amazon.com/bedrock/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-12T19:49:48.043Z",
-      "currentHash": "6ccb05bc720809efb7cd2cc9a322bf3b3fe89c4b0df68dddad574aeb82b66f48",
-      "affectedBlueprintIds": [
-        "aif-d2-131",
-        "aif-d2-132",
-        "aif-d2-133",
-        "aif-d3-001",
-        "aif-d5-002",
-        "aif-d5-007",
-        "aif-d5-008",
-        "aif-d5-013",
-        "aif-d5-014",
-        "aif-d2-cur-retry-unit-cost-calculation",
-        "aif-d2-cur-throughput-output-length",
-        "aif-d2-cur-total-application-cost",
-        "aif-d2-cur-cost-distribution",
-        "aif-d2-cur-benchmark-portability",
-        "aif-d2-cur-language-token-budget",
-        "aif-d2-cur-provisioned-demand-forecast",
-        "aif-d2-cur-provisioned-idle-cost",
-        "aif-d2-cur-hypothetical-token-price-calculation",
-        "aif-d2-cur-cache-observed-billing",
-        "aif-d2-cur-input-output-token-estimate",
-        "aif-d2-cur-custom-model-serving-check",
-        "aif-d3-cur-quality-cost-constraint",
-        "aif-d3-cur-task-routing",
-        "aif-d3-cur-customization-cost-calculation",
-        "aif-d3-cur-customization-cost-horizon",
-        "aif-d3-cur-distillation-economics",
-        "aif-d3-cur-distillation-generation-expense"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "models-regions",
-      "title": "Disponibilidade regional de modelos Bedrock",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
-      "tier": "service",
-      "detectedAt": "2026-10-12T19:49:48.043Z",
-      "currentHash": "fcb23cd8b9526e9bed18e7b9ce242f16555c91710887b9d2fdb8b556de54fdc6",
-      "affectedBlueprintIds": [
-        "aif-d3-001",
-        "aif-d2-cur-bedrock-model-feature-check",
-        "aif-d2-cur-regional-model-availability",
-        "aif-d2-cur-quota-versus-reserved-capacity",
-        "aif-d3-cur-modality-gate"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rag-vector-setup",
-      "title": "Compatibilidade de índices para Knowledge Bases",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-setup.html",
-      "tier": "service",
-      "detectedAt": "2026-10-13T17:37:19.223Z",
-      "currentHash": "3385c4f1a64f955bf5e815e7cfe765217c8df03fe85a2206759811f99dba0ac5",
-      "affectedBlueprintIds": [
-        "aif-d3-004",
-        "aif-d3-cur-embedding-space-consistency",
-        "aif-d3-cur-embedding-dimension-migration",
-        "aif-d3-cur-vector-original-text",
-        "aif-d3-cur-aurora-vector-choice"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo SAA-C03.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.14-aif.1",
+  "generatedAt": "2026-10-14T13:39:43.307Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -698,6 +609,42 @@
       "currentHash": "5c98069488809285b6777946a6d98b680a07219f7a2311b766dca27e09b8516c",
       "approvedAt": "2026-10-09T21:24:13.064Z",
       "note": "Releitura específica do snapshot 5c980694 e releitura integral das 27 questões registrada em docs/bedrock-pricing-review-2026-10-09.md. Valores dos exercícios são hipotéticos, cache/throughput/modelos personalizados já têm condições explícitas e tarifas não alteram os distratores de governança. Nenhuma mudança de gabarito necessária; fingerprints preservados. Leitura da fonte atualizada após conferência do hash, sem aprovação automática de conteúdo desconhecido."
+    },
+    {
+      "sourceId": "agent-policy-authoring",
+      "currentHash": "9f3f1ce6835cbb9cdf825b4d8885d54dffd3ec752a1b905ea721324d37d7b7a0",
+      "approvedAt": "2026-10-14T13:39:41.140Z",
+      "note": "Releitura efetiva de seis fontes e 44 questões; decisões individuais, condições e hashes em docs/maintenance-2026-10-14.md. Todos os campos e gabaritos preservados. Revisão por Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "agent-policy-mode",
+      "currentHash": "1fe3cc8c93b3bab7fdb16282c3c6c279dd7691bf43c5fffd869d69cf27ac02be",
+      "approvedAt": "2026-10-14T13:39:41.140Z",
+      "note": "Releitura efetiva de seis fontes e 44 questões; decisões individuais, condições e hashes em docs/maintenance-2026-10-14.md. Todos os campos e gabaritos preservados. Revisão por Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "bedrock-pricing",
+      "currentHash": "6ccb05bc720809efb7cd2cc9a322bf3b3fe89c4b0df68dddad574aeb82b66f48",
+      "approvedAt": "2026-10-14T13:39:41.140Z",
+      "note": "Releitura efetiva de seis fontes e 44 questões; decisões individuais, condições e hashes em docs/maintenance-2026-10-14.md. Todos os campos e gabaritos preservados. Revisão por Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "kiro",
+      "currentHash": "9ee132b12be94d0ab8a8179213aa1cc61db04c8bfa9220bb866eddf6a127be15",
+      "approvedAt": "2026-10-14T13:39:41.140Z",
+      "note": "Releitura efetiva de seis fontes e 44 questões; decisões individuais, condições e hashes em docs/maintenance-2026-10-14.md. Todos os campos e gabaritos preservados. Revisão por Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "models-regions",
+      "currentHash": "fcb23cd8b9526e9bed18e7b9ce242f16555c91710887b9d2fdb8b556de54fdc6",
+      "approvedAt": "2026-10-14T13:39:41.140Z",
+      "note": "Releitura efetiva de seis fontes e 44 questões; decisões individuais, condições e hashes em docs/maintenance-2026-10-14.md. Todos os campos e gabaritos preservados. Revisão por Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "rag-vector-setup",
+      "currentHash": "3385c4f1a64f955bf5e815e7cfe765217c8df03fe85a2206759811f99dba0ac5",
+      "approvedAt": "2026-10-14T13:39:41.140Z",
+      "note": "Releitura efetiva de seis fontes e 44 questões; decisões individuais, condições e hashes em docs/maintenance-2026-10-14.md. Todos os campos e gabaritos preservados. Revisão por Codex, sem revisão humana independente."
     }
   ]
 }
