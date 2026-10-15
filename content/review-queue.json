@@ -1,7 +1,26 @@
 {
   "version": "2026.10.14-aif.2",
-  "generatedAt": "2026-10-14T15:11:54.745Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-10-15T15:05:04.645Z",
+  "pendingChanges": [
+    {
+      "sourceId": "agent-policy-authoring",
+      "title": "Requisitos e conferência de políticas geradas",
+      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/policy-create-policies.html",
+      "tier": "service",
+      "detectedAt": "2026-10-15T15:05:03.716Z",
+      "currentHash": "67efe79f4b0d72c9400ed4eb2b98aeef38a3a97860ffe3b602120602e65704ec",
+      "affectedBlueprintIds": [
+        "aif-d5-cur-policy-generated-review"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {
