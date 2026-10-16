@@ -1,6 +1,6 @@
 {
   "version": "2026.10.14-aif.2",
-  "generatedAt": "2026-10-15T15:05:04.645Z",
+  "generatedAt": "2026-10-16T14:54:27.584Z",
   "pendingChanges": [
     {
       "sourceId": "agent-policy-authoring",
@@ -11,6 +11,66 @@
       "currentHash": "67efe79f4b0d72c9400ed4eb2b98aeef38a3a97860ffe3b602120602e65704ec",
       "affectedBlueprintIds": [
         "aif-d5-cur-policy-generated-review"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "batch",
+      "title": "Inferência em lote no Amazon Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference.html",
+      "tier": "service",
+      "detectedAt": "2026-10-16T14:54:26.511Z",
+      "currentHash": "6928990f00c4cb984d43af06902b5108796316281b43c4bf41a77f9d0f65c54c",
+      "affectedBlueprintIds": [
+        "aif-d2-cur-batch-job-sequence",
+        "aif-d2-cur-batch-offline-processing",
+        "aif-d2-cur-batch-agent-interaction"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "models-regions",
+      "title": "Disponibilidade regional de modelos Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
+      "tier": "service",
+      "detectedAt": "2026-10-16T14:54:26.511Z",
+      "currentHash": "a63f8f44f2313a8aed8dc12a79b0385659771ea7e3496daf9550ef88e46b8c4d",
+      "affectedBlueprintIds": [
+        "aif-d3-001",
+        "aif-d2-cur-bedrock-model-feature-check",
+        "aif-d2-cur-regional-model-availability",
+        "aif-d2-cur-quota-versus-reserved-capacity",
+        "aif-d3-cur-modality-gate"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "rds-pgvector",
+      "title": "Extensões e versões do RDS para PostgreSQL",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html",
+      "tier": "service",
+      "detectedAt": "2026-10-16T14:54:26.511Z",
+      "currentHash": "a3443ecbd0a470dd477ebe5b8d8b0f9d90225573c22a0753d4a4eee5daf1c3d1",
+      "affectedBlueprintIds": [
+        "aif-d3-cur-rds-vector-capability"
       ],
       "status": "pending",
       "requiredActions": [
