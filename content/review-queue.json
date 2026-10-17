@@ -1,86 +1,7 @@
 {
-  "version": "2026.10.14-aif.2",
-  "generatedAt": "2026-10-16T14:54:27.584Z",
-  "pendingChanges": [
-    {
-      "sourceId": "agent-policy-authoring",
-      "title": "Requisitos e conferência de políticas geradas",
-      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/policy-create-policies.html",
-      "tier": "service",
-      "detectedAt": "2026-10-15T15:05:03.716Z",
-      "currentHash": "67efe79f4b0d72c9400ed4eb2b98aeef38a3a97860ffe3b602120602e65704ec",
-      "affectedBlueprintIds": [
-        "aif-d5-cur-policy-generated-review"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "batch",
-      "title": "Inferência em lote no Amazon Bedrock",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference.html",
-      "tier": "service",
-      "detectedAt": "2026-10-16T14:54:26.511Z",
-      "currentHash": "6928990f00c4cb984d43af06902b5108796316281b43c4bf41a77f9d0f65c54c",
-      "affectedBlueprintIds": [
-        "aif-d2-cur-batch-job-sequence",
-        "aif-d2-cur-batch-offline-processing",
-        "aif-d2-cur-batch-agent-interaction"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "models-regions",
-      "title": "Disponibilidade regional de modelos Bedrock",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
-      "tier": "service",
-      "detectedAt": "2026-10-16T14:54:26.511Z",
-      "currentHash": "a63f8f44f2313a8aed8dc12a79b0385659771ea7e3496daf9550ef88e46b8c4d",
-      "affectedBlueprintIds": [
-        "aif-d3-001",
-        "aif-d2-cur-bedrock-model-feature-check",
-        "aif-d2-cur-regional-model-availability",
-        "aif-d2-cur-quota-versus-reserved-capacity",
-        "aif-d3-cur-modality-gate"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-pgvector",
-      "title": "Extensões e versões do RDS para PostgreSQL",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html",
-      "tier": "service",
-      "detectedAt": "2026-10-16T14:54:26.511Z",
-      "currentHash": "a3443ecbd0a470dd477ebe5b8d8b0f9d90225573c22a0753d4a4eee5daf1c3d1",
-      "affectedBlueprintIds": [
-        "aif-d3-cur-rds-vector-capability"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.16-aif.1",
+  "generatedAt": "2026-10-17T01:31:53.059Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -724,6 +645,30 @@
       "currentHash": "3385c4f1a64f955bf5e815e7cfe765217c8df03fe85a2206759811f99dba0ac5",
       "approvedAt": "2026-10-14T13:39:41.140Z",
       "note": "Releitura efetiva de seis fontes e 44 questões; decisões individuais, condições e hashes em docs/maintenance-2026-10-14.md. Todos os campos e gabaritos preservados. Revisão por Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "agent-policy-authoring",
+      "currentHash": "67efe79f4b0d72c9400ed4eb2b98aeef38a3a97860ffe3b602120602e65704ec",
+      "approvedAt": "2026-10-17T01:31:51.485Z",
+      "note": "Quatro documentos e dez questões relidos efetivamente; nove mantidas e explicação de tool calling em lote refinada, gabaritos preservados. Hashes e decisões em docs/closure-2026-10-16.md. Revisão Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "batch",
+      "currentHash": "6928990f00c4cb984d43af06902b5108796316281b43c4bf41a77f9d0f65c54c",
+      "approvedAt": "2026-10-17T01:31:51.485Z",
+      "note": "Quatro documentos e dez questões relidos efetivamente; nove mantidas e explicação de tool calling em lote refinada, gabaritos preservados. Hashes e decisões em docs/closure-2026-10-16.md. Revisão Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "models-regions",
+      "currentHash": "a63f8f44f2313a8aed8dc12a79b0385659771ea7e3496daf9550ef88e46b8c4d",
+      "approvedAt": "2026-10-17T01:31:51.485Z",
+      "note": "Quatro documentos e dez questões relidos efetivamente; nove mantidas e explicação de tool calling em lote refinada, gabaritos preservados. Hashes e decisões em docs/closure-2026-10-16.md. Revisão Codex, sem revisão humana independente."
+    },
+    {
+      "sourceId": "rds-pgvector",
+      "currentHash": "a3443ecbd0a470dd477ebe5b8d8b0f9d90225573c22a0753d4a4eee5daf1c3d1",
+      "approvedAt": "2026-10-17T01:31:51.485Z",
+      "note": "Quatro documentos e dez questões relidos efetivamente; nove mantidas e explicação de tool calling em lote refinada, gabaritos preservados. Hashes e decisões em docs/closure-2026-10-16.md. Revisão Codex, sem revisão humana independente."
     }
   ]
 }
