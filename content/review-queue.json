@@ -1,7 +1,181 @@
 {
   "version": "2026.10.16-aif.1",
-  "generatedAt": "2026-10-17T13:46:04.056Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-10-18T14:03:05.824Z",
+  "pendingChanges": [
+    {
+      "sourceId": "bedrock",
+      "title": "Amazon Bedrock - conceitos e aplicações",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html",
+      "tier": "core",
+      "detectedAt": "2026-10-18T14:03:05.177Z",
+      "currentHash": "111c4296d7bf7b166bfa1e28d5fdea78df04e50d0dd69f2b154453fbce17b15d",
+      "affectedBlueprintIds": [
+        "aif-d2-007",
+        "aif-d2-127",
+        "aif-d2-128",
+        "aif-d1-cur-traditional-vs-fm",
+        "aif-d1-cur-fm-pretraining-economics",
+        "aif-d1-cur-managed-model-availability",
+        "aif-d1-cur-output-schema-fit",
+        "aif-d1-cur-agent-boundary",
+        "aif-d1-cur-pretrained-freshness",
+        "aif-d1-cur-modality-support",
+        "aif-d2-cur-hard-selection-constraints",
+        "aif-d2-cur-multimodal-directions",
+        "aif-d2-cur-image-caption-versus-generation",
+        "aif-d2-cur-video-generation-boundary",
+        "aif-d2-cur-managed-embedding-model",
+        "aif-d2-cur-model-request-compatibility",
+        "aif-d2-cur-strands-model-choice",
+        "aif-d2-cur-bedrock-knowledge-bases-service",
+        "aif-d2-cur-bedrock-customization-service",
+        "aif-d2-cur-bedrock-managed-infrastructure",
+        "aif-d2-cur-bedrock-model-feature-check",
+        "aif-d2-cur-streaming-service-contract",
+        "aif-d2-cur-aws-service-layer-map",
+        "aif-d3-cur-modality-gate",
+        "aif-d3-cur-task-routing"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "cross-region",
+      "title": "Perfis geográficos e globais de inferência",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/cross-region-inference.html",
+      "tier": "service",
+      "detectedAt": "2026-10-18T14:03:05.177Z",
+      "currentHash": "230e03c6f604738d1ddd76da53fe490db1bfb0beda55d8334837169bf4d606f4",
+      "affectedBlueprintIds": [
+        "aif-d2-137",
+        "aif-d2-cur-source-region-versus-processing",
+        "aif-d2-cur-geographic-global-profile",
+        "aif-d2-cur-cross-region-capacity",
+        "aif-d5-cur-source-log-vs-processing-region",
+        "aif-d5-cur-geography-not-single-region",
+        "aif-d5-cur-region-enable-not-routing-control"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "models-regions",
+      "title": "Disponibilidade regional de modelos Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
+      "tier": "service",
+      "detectedAt": "2026-10-18T14:03:05.177Z",
+      "currentHash": "b7ab3985ef0d94768d3524112e727bf2bbac0bcce45f4f2d3dadcbab2956f75b",
+      "affectedBlueprintIds": [
+        "aif-d3-001",
+        "aif-d2-cur-bedrock-model-feature-check",
+        "aif-d2-cur-regional-model-availability",
+        "aif-d2-cur-quota-versus-reserved-capacity",
+        "aif-d3-cur-modality-gate"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "prompt-cache",
+      "title": "Prompt caching: elegibilidade, leitura e escrita",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html",
+      "tier": "service",
+      "detectedAt": "2026-10-18T14:03:05.177Z",
+      "currentHash": "06b6c3fbfba8b1ce215c2f1053266ece228182eb497221f6c5fec2c346b8ba52",
+      "affectedBlueprintIds": [
+        "aif-d2-133",
+        "aif-d3-012",
+        "aif-d2-cur-cache-observed-billing",
+        "aif-d2-cur-cache-expiration",
+        "aif-d3-cur-cache-prefix-placement",
+        "aif-d3-cur-cache-versus-answer"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "rag-chunking",
+      "title": "Fragmentação padrão, hierárquica e semântica",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-chunking.html",
+      "tier": "service",
+      "detectedAt": "2026-10-18T14:03:05.177Z",
+      "currentHash": "bd1255ed5ee8af13d9c21f11c37b43c40e36a950b7ba8e22e24cbc8aff5c30ca",
+      "affectedBlueprintIds": [
+        "aif-d3-007",
+        "aif-d3-cur-chunk-overlap-tradeoff",
+        "aif-d3-cur-hierarchical-retrieval",
+        "aif-d3-cur-multimodal-rag-design",
+        "aif-d3-cur-retrieval-result-count"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "rag-vector-setup",
+      "title": "Compatibilidade de índices para Knowledge Bases",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-setup.html",
+      "tier": "service",
+      "detectedAt": "2026-10-18T14:03:05.177Z",
+      "currentHash": "b7f2ca06a859a390cab5b559d2c47da34b691a00cea534e39823505a4f9df934",
+      "affectedBlueprintIds": [
+        "aif-d3-004",
+        "aif-d3-cur-embedding-space-consistency",
+        "aif-d3-cur-embedding-dimension-migration",
+        "aif-d3-cur-vector-original-text",
+        "aif-d3-cur-aurora-vector-choice"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "rds-pgvector",
+      "title": "Extensões e versões do RDS para PostgreSQL",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html",
+      "tier": "service",
+      "detectedAt": "2026-10-18T14:03:05.177Z",
+      "currentHash": "9c33b3dfa6afcd7b032e523a21b320783bfd94aae6bf9f38a85a82d16be7ba3b",
+      "affectedBlueprintIds": [
+        "aif-d3-cur-rds-vector-capability"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {
