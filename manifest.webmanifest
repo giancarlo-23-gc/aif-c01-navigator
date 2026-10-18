@@ -1,7 +1,7 @@
 {
   "name": "AIF Navigator — Simulador AIF-C01",
   "short_name": "AIF Navigator",
-  "id": "./",
+  "id": "/aif-c01-navigator/",
   "description": "Simulador independente em português para AWS AIF-C01: 800 questões, explicações e treino offline.",
   "start_url": "./",
   "scope": "./",
