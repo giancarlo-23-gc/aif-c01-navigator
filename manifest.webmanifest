@@ -10,6 +10,13 @@
   "theme_color": "#0c1d36",
   "lang": "pt-BR",
   "categories": ["education", "productivity"],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "./manifest.webmanifest",
+      "id": "https://giancarlo-23-gc.github.io/aif-c01-navigator/"
+    }
+  ],
   "shortcuts": [
     {
       "name": "Abrir simulador",
