@@ -31,7 +31,7 @@ Checklist:
 ## Disponibilidade regional de modelos Bedrock
 
 - Fonte: https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html
-- Detectada em: 2026-10-18T14:03:05.177Z
+- Detectada em: 2026-10-19T16:59:55.574Z
 - Questões afetadas: aif-d3-001, aif-d2-cur-bedrock-model-feature-check, aif-d2-cur-regional-model-availability, aif-d2-cur-quota-versus-reserved-capacity, aif-d3-cur-modality-gate
 
 Checklist:
@@ -44,7 +44,7 @@ Checklist:
 ## Prompt caching: elegibilidade, leitura e escrita
 
 - Fonte: https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html
-- Detectada em: 2026-10-18T14:03:05.177Z
+- Detectada em: 2026-10-19T16:59:55.574Z
 - Questões afetadas: aif-d2-133, aif-d3-012, aif-d2-cur-cache-observed-billing, aif-d2-cur-cache-expiration, aif-d3-cur-cache-prefix-placement, aif-d3-cur-cache-versus-answer
 
 Checklist:

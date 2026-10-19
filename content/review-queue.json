@@ -1,6 +1,6 @@
 {
   "version": "2026.10.16-aif.1",
-  "generatedAt": "2026-10-18T14:03:05.824Z",
+  "generatedAt": "2026-10-19T16:59:56.588Z",
   "pendingChanges": [
     {
       "sourceId": "bedrock",
@@ -73,8 +73,8 @@
       "title": "Disponibilidade regional de modelos Bedrock",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
       "tier": "service",
-      "detectedAt": "2026-10-18T14:03:05.177Z",
-      "currentHash": "b7ab3985ef0d94768d3524112e727bf2bbac0bcce45f4f2d3dadcbab2956f75b",
+      "detectedAt": "2026-10-19T16:59:55.574Z",
+      "currentHash": "9aa8061b3760e84a39ef44c43717e60336feb8f42e12e58a31a158b136a07e54",
       "affectedBlueprintIds": [
         "aif-d3-001",
         "aif-d2-cur-bedrock-model-feature-check",
@@ -95,8 +95,8 @@
       "title": "Prompt caching: elegibilidade, leitura e escrita",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html",
       "tier": "service",
-      "detectedAt": "2026-10-18T14:03:05.177Z",
-      "currentHash": "06b6c3fbfba8b1ce215c2f1053266ece228182eb497221f6c5fec2c346b8ba52",
+      "detectedAt": "2026-10-19T16:59:55.574Z",
+      "currentHash": "ebf3ca85239744a20ebf67e959e9eb0038c99b278af720374fbe23dd887468fe",
       "affectedBlueprintIds": [
         "aif-d2-133",
         "aif-d3-012",
