@@ -1,7 +1,80 @@
 {
   "version": "2026.10.19-aif.1",
-  "generatedAt": "2026-10-19T17:50:10.902Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-10-20T15:08:20.239Z",
+  "pendingChanges": [
+    {
+      "sourceId": "contextual-grounding",
+      "title": "Fundamentação, relevância e cobertura do filtro",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails-contextual-grounding-check.html",
+      "tier": "service",
+      "detectedAt": "2026-10-20T15:08:19.585Z",
+      "currentHash": "db567c054202aa031b72e8b369bd26ba934e88a117e3a4918886d66cfd25f0c2",
+      "affectedBlueprintIds": [
+        "aif-d5-cur-grounding-threshold-both",
+        "aif-d5-cur-grounding-needs-response",
+        "aif-d5-cur-grounding-reference-policy-coverage",
+        "aif-d5-cur-streaming-validation-timing"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "guardrails",
+      "title": "Amazon Bedrock Guardrails",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/guardrails.html",
+      "tier": "service",
+      "detectedAt": "2026-10-20T15:08:19.585Z",
+      "currentHash": "0f75f7a3318c0ec2a02c79c67fec493c6bc19dd49107dc1eba6cc0d3b9a4b640",
+      "affectedBlueprintIds": [
+        "aif-d4-006",
+        "aif-d4-012",
+        "aif-d4-013",
+        "aif-d5-001",
+        "aif-d5-003",
+        "aif-d5-004",
+        "aif-d5-005",
+        "aif-d4-cur-denied-topic",
+        "aif-d4-cur-invocation-coverage",
+        "aif-d4-cur-safe-but-wrong",
+        "aif-d5-cur-grounding-threshold-both",
+        "aif-d5-cur-grounding-needs-response"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "models-regions",
+      "title": "Disponibilidade regional de modelos Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
+      "tier": "service",
+      "detectedAt": "2026-10-20T15:08:19.585Z",
+      "currentHash": "9ab7ba14b1f0ce278e2bc7f9d8ea51f27843f4ea25622e98610c3779a97c8e8b",
+      "affectedBlueprintIds": [
+        "aif-d3-001",
+        "aif-d2-cur-bedrock-model-feature-check",
+        "aif-d2-cur-regional-model-availability",
+        "aif-d2-cur-quota-versus-reserved-capacity",
+        "aif-d3-cur-modality-gate"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {
