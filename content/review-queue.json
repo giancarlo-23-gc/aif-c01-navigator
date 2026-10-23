@@ -1,7 +1,73 @@
 {
   "version": "2026.10.20-aif.1",
-  "generatedAt": "2026-10-22T15:19:52.309Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-10-23T15:08:08.584Z",
+  "pendingChanges": [
+    {
+      "sourceId": "agent-evaluation-reference",
+      "title": "Referências de resposta, sessão e trajetória na avaliação de agentes",
+      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/ground-truth-evaluations.html",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:08:07.969Z",
+      "currentHash": "d3dd79677f1bb7fb00a7c0160d4ef558b8e50278d9faf6ec0b54cfba0da4d9ce",
+      "affectedBlueprintIds": [
+        "aif-d3-cur-agent-session-goal",
+        "aif-d3-cur-agent-valid-trajectories",
+        "aif-d3-cur-agent-retry-side-effect",
+        "aif-d3-cur-trajectory-name-limit",
+        "aif-d3-cur-agent-online-reference",
+        "aif-d3-cur-agent-trace-coverage",
+        "aif-d3-cur-ignored-reference-field"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "agent-policy-permissions",
+      "title": "Permissões de execução e administração de Policy",
+      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/policy-permissions.html",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:08:07.969Z",
+      "currentHash": "36ec4e30b00dc0fd9c6f3c96e7e2f1755659cb15065778568cec005a195e85d7",
+      "affectedBlueprintIds": [
+        "aif-d5-cur-gateway-role-separation"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kiro",
+      "title": "Kiro: specs, steering, hooks e ferramentas",
+      "url": "https://kiro.dev/docs/how-kiro-works.md",
+      "tier": "service",
+      "detectedAt": "2026-10-23T15:08:07.969Z",
+      "currentHash": "b4dba7142703be556e24a4b21d4b0b19648366f918d731e036b7224bc732dc89",
+      "affectedBlueprintIds": [
+        "aif-d2-cur-kiro-development",
+        "aif-d2-cur-kiro-specs",
+        "aif-d2-cur-kiro-steering",
+        "aif-d2-cur-kiro-hooks",
+        "aif-d2-cur-kiro-mcp-integration",
+        "aif-d2-cur-kiro-controls"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {
