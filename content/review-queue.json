@@ -1,6 +1,6 @@
 {
   "version": "2026.10.20-aif.1",
-  "generatedAt": "2026-10-23T15:08:08.584Z",
+  "generatedAt": "2026-10-24T14:02:03.854Z",
   "pendingChanges": [
     {
       "sourceId": "agent-evaluation-reference",
@@ -58,6 +58,28 @@
         "aif-d2-cur-kiro-hooks",
         "aif-d2-cur-kiro-mcp-integration",
         "aif-d2-cur-kiro-controls"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "models-regions",
+      "title": "Disponibilidade regional de modelos Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
+      "tier": "service",
+      "detectedAt": "2026-10-24T14:02:02.877Z",
+      "currentHash": "f4afb710851b8e31c24b2f0f70a449e655c175da24330181a5be702e563c59cf",
+      "affectedBlueprintIds": [
+        "aif-d3-001",
+        "aif-d2-cur-bedrock-model-feature-check",
+        "aif-d2-cur-regional-model-availability",
+        "aif-d2-cur-quota-versus-reserved-capacity",
+        "aif-d3-cur-modality-gate"
       ],
       "status": "pending",
       "requiredActions": [
