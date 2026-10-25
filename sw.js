@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'aif-navigator-29d0f5536eb6dedbca35';
+const CACHE_VERSION = 'aif-navigator-90f18bb8a6f1406b2914';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 const BASE_URL = self.registration.scope;

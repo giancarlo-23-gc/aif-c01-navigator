@@ -1,95 +1,7 @@
 {
-  "version": "2026.10.20-aif.1",
-  "generatedAt": "2026-10-25T14:24:50.043Z",
-  "pendingChanges": [
-    {
-      "sourceId": "agent-evaluation-reference",
-      "title": "Referências de resposta, sessão e trajetória na avaliação de agentes",
-      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/ground-truth-evaluations.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:08:07.969Z",
-      "currentHash": "d3dd79677f1bb7fb00a7c0160d4ef558b8e50278d9faf6ec0b54cfba0da4d9ce",
-      "affectedBlueprintIds": [
-        "aif-d3-cur-agent-session-goal",
-        "aif-d3-cur-agent-valid-trajectories",
-        "aif-d3-cur-agent-retry-side-effect",
-        "aif-d3-cur-trajectory-name-limit",
-        "aif-d3-cur-agent-online-reference",
-        "aif-d3-cur-agent-trace-coverage",
-        "aif-d3-cur-ignored-reference-field"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "agent-policy-permissions",
-      "title": "Permissões de execução e administração de Policy",
-      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/policy-permissions.html",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:08:07.969Z",
-      "currentHash": "36ec4e30b00dc0fd9c6f3c96e7e2f1755659cb15065778568cec005a195e85d7",
-      "affectedBlueprintIds": [
-        "aif-d5-cur-gateway-role-separation"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kiro",
-      "title": "Kiro: specs, steering, hooks e ferramentas",
-      "url": "https://kiro.dev/docs/how-kiro-works.md",
-      "tier": "service",
-      "detectedAt": "2026-10-23T15:08:07.969Z",
-      "currentHash": "b4dba7142703be556e24a4b21d4b0b19648366f918d731e036b7224bc732dc89",
-      "affectedBlueprintIds": [
-        "aif-d2-cur-kiro-development",
-        "aif-d2-cur-kiro-specs",
-        "aif-d2-cur-kiro-steering",
-        "aif-d2-cur-kiro-hooks",
-        "aif-d2-cur-kiro-mcp-integration",
-        "aif-d2-cur-kiro-controls"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "models-regions",
-      "title": "Disponibilidade regional de modelos Bedrock",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
-      "tier": "service",
-      "detectedAt": "2026-10-24T14:02:02.877Z",
-      "currentHash": "f4afb710851b8e31c24b2f0f70a449e655c175da24330181a5be702e563c59cf",
-      "affectedBlueprintIds": [
-        "aif-d3-001",
-        "aif-d2-cur-bedrock-model-feature-check",
-        "aif-d2-cur-regional-model-availability",
-        "aif-d2-cur-quota-versus-reserved-capacity",
-        "aif-d3-cur-modality-gate"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.25-aif.1",
+  "generatedAt": "2026-10-25T20:16:36.452Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -817,6 +729,36 @@
       "currentHash": "9ab7ba14b1f0ce278e2bc7f9d8ea51f27843f4ea25622e98610c3779a97c8e8b",
       "approvedAt": "2026-10-20T20:55:59.604Z",
       "note": "Leitura real das três fontes atuais e das 19 questões associadas, com hashes conferidos; gabaritos preservados. Corrigidas referências posicionais em oito explicações após leitura de sete itens adicionais; Standard/Classic e reavaliação de limiares esclarecidos. Decisões individuais em docs/maintenance-2026-10-20.md."
+    },
+    {
+      "sourceId": "agent-evaluation-reference",
+      "currentHash": "d3dd79677f1bb7fb00a7c0160d4ef558b8e50278d9faf6ec0b54cfba0da4d9ce",
+      "approvedAt": "2026-10-25T20:16:31.094Z",
+      "note": "Seções pertinentes das cinco fontes atuais e 25 questões completas relidas; hashes conferidos. Nenhum texto ou gabarito exige alteração. Decisões específicas e limites em docs/maintenance-2026-10-25.md. Não houve aprovação automática de conteúdo."
+    },
+    {
+      "sourceId": "agent-policy-permissions",
+      "currentHash": "36ec4e30b00dc0fd9c6f3c96e7e2f1755659cb15065778568cec005a195e85d7",
+      "approvedAt": "2026-10-25T20:16:31.094Z",
+      "note": "Seções pertinentes das cinco fontes atuais e 25 questões completas relidas; hashes conferidos. Nenhum texto ou gabarito exige alteração. Decisões específicas e limites em docs/maintenance-2026-10-25.md. Não houve aprovação automática de conteúdo."
+    },
+    {
+      "sourceId": "kiro",
+      "currentHash": "b4dba7142703be556e24a4b21d4b0b19648366f918d731e036b7224bc732dc89",
+      "approvedAt": "2026-10-25T20:16:31.094Z",
+      "note": "Seções pertinentes das cinco fontes atuais e 25 questões completas relidas; hashes conferidos. Nenhum texto ou gabarito exige alteração. Decisões específicas e limites em docs/maintenance-2026-10-25.md. Não houve aprovação automática de conteúdo."
+    },
+    {
+      "sourceId": "mcp-architecture",
+      "currentHash": "cb9fed12ca213db31d5c344b3c7d455fc199ccf0fa7355568dde33171dba212a",
+      "approvedAt": "2026-10-25T20:16:31.094Z",
+      "note": "Seções pertinentes das cinco fontes atuais e 25 questões completas relidas; hashes conferidos. Nenhum texto ou gabarito exige alteração. Decisões específicas e limites em docs/maintenance-2026-10-25.md. Não houve aprovação automática de conteúdo."
+    },
+    {
+      "sourceId": "models-regions",
+      "currentHash": "f4afb710851b8e31c24b2f0f70a449e655c175da24330181a5be702e563c59cf",
+      "approvedAt": "2026-10-25T20:16:31.094Z",
+      "note": "Seções pertinentes das cinco fontes atuais e 25 questões completas relidas; hashes conferidos. Nenhum texto ou gabarito exige alteração. Decisões específicas e limites em docs/maintenance-2026-10-25.md. Não houve aprovação automática de conteúdo."
     }
   ]
 }
