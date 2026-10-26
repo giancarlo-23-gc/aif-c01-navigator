@@ -1,52 +1,7 @@
 {
-  "version": "2026.10.25-aif.1",
-  "generatedAt": "2026-10-26T20:05:07.327Z",
-  "pendingChanges": [
-    {
-      "sourceId": "bedrock-pricing",
-      "title": "Modelos de cobrança Bedrock",
-      "url": "https://aws.amazon.com/bedrock/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-10-26T20:05:06.396Z",
-      "currentHash": "061462ca4c98158683e4f897447a33f582716211a10c7cbef5b31e4e58cb622d",
-      "affectedBlueprintIds": [
-        "aif-d2-131",
-        "aif-d2-132",
-        "aif-d2-133",
-        "aif-d3-001",
-        "aif-d5-002",
-        "aif-d5-007",
-        "aif-d5-008",
-        "aif-d5-013",
-        "aif-d5-014",
-        "aif-d2-cur-retry-unit-cost-calculation",
-        "aif-d2-cur-throughput-output-length",
-        "aif-d2-cur-total-application-cost",
-        "aif-d2-cur-cost-distribution",
-        "aif-d2-cur-benchmark-portability",
-        "aif-d2-cur-language-token-budget",
-        "aif-d2-cur-provisioned-demand-forecast",
-        "aif-d2-cur-provisioned-idle-cost",
-        "aif-d2-cur-hypothetical-token-price-calculation",
-        "aif-d2-cur-cache-observed-billing",
-        "aif-d2-cur-input-output-token-estimate",
-        "aif-d2-cur-custom-model-serving-check",
-        "aif-d3-cur-quality-cost-constraint",
-        "aif-d3-cur-task-routing",
-        "aif-d3-cur-customization-cost-calculation",
-        "aif-d3-cur-customization-cost-horizon",
-        "aif-d3-cur-distillation-economics",
-        "aif-d3-cur-distillation-generation-expense"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.26-aif.1",
+  "generatedAt": "2026-10-26T20:11:50.042Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -804,6 +759,12 @@
       "currentHash": "f4afb710851b8e31c24b2f0f70a449e655c175da24330181a5be702e563c59cf",
       "approvedAt": "2026-10-25T20:16:31.094Z",
       "note": "Seções pertinentes das cinco fontes atuais e 25 questões completas relidas; hashes conferidos. Nenhum texto ou gabarito exige alteração. Decisões específicas e limites em docs/maintenance-2026-10-25.md. Não houve aprovação automática de conteúdo."
+    },
+    {
+      "sourceId": "bedrock-pricing",
+      "currentHash": "061462ca4c98158683e4f897447a33f582716211a10c7cbef5b31e4e58cb622d",
+      "approvedAt": "2026-10-26T20:11:48.890Z",
+      "note": "Fonte atual e 27 questões completas relidas, cálculos hipotéticos e pares conferidos; textos, opções e gabaritos preservados. Hash e decisões individuais em docs/maintenance-2026-10-26.md. Revisão Codex sem revisão humana independente."
     }
   ]
 }
