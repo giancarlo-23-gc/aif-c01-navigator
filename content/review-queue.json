@@ -1,7 +1,26 @@
 {
   "version": "2026.10.26-aif.1",
-  "generatedAt": "2026-10-27T15:54:23.160Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-10-28T16:40:38.769Z",
+  "pendingChanges": [
+    {
+      "sourceId": "rds-pgvector",
+      "title": "Extensões e versões do RDS para PostgreSQL",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html",
+      "tier": "service",
+      "detectedAt": "2026-10-28T16:40:37.994Z",
+      "currentHash": "f9b85d7f24d0f4e37bab63b61849cdfea1c8609f6616e82c3f294d50d4c33440",
+      "affectedBlueprintIds": [
+        "aif-d3-cur-rds-vector-capability"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {
