@@ -1,6 +1,6 @@
 {
   "version": "2026.10.26-aif.1",
-  "generatedAt": "2026-10-28T16:40:38.769Z",
+  "generatedAt": "2026-10-29T16:57:02.831Z",
   "pendingChanges": [
     {
       "sourceId": "rds-pgvector",
