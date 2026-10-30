@@ -1,7 +1,29 @@
 {
   "version": "2026.10.26-aif.1",
-  "generatedAt": "2026-10-29T16:57:02.831Z",
+  "generatedAt": "2026-10-30T16:42:53.687Z",
   "pendingChanges": [
+    {
+      "sourceId": "models-regions",
+      "title": "Disponibilidade regional de modelos Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
+      "tier": "service",
+      "detectedAt": "2026-10-30T16:42:52.439Z",
+      "currentHash": "c254aa37aef60ad5854153083b7839ce8dc454e0168a6df3cee5ef630218ea05",
+      "affectedBlueprintIds": [
+        "aif-d3-001",
+        "aif-d2-cur-bedrock-model-feature-check",
+        "aif-d2-cur-regional-model-availability",
+        "aif-d2-cur-quota-versus-reserved-capacity",
+        "aif-d3-cur-modality-gate"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "rds-pgvector",
       "title": "Extensões e versões do RDS para PostgreSQL",
