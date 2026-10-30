@@ -1,48 +1,7 @@
 {
-  "version": "2026.10.26-aif.1",
-  "generatedAt": "2026-10-30T16:42:53.687Z",
-  "pendingChanges": [
-    {
-      "sourceId": "models-regions",
-      "title": "Disponibilidade regional de modelos Bedrock",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
-      "tier": "service",
-      "detectedAt": "2026-10-30T16:42:52.439Z",
-      "currentHash": "c254aa37aef60ad5854153083b7839ce8dc454e0168a6df3cee5ef630218ea05",
-      "affectedBlueprintIds": [
-        "aif-d3-001",
-        "aif-d2-cur-bedrock-model-feature-check",
-        "aif-d2-cur-regional-model-availability",
-        "aif-d2-cur-quota-versus-reserved-capacity",
-        "aif-d3-cur-modality-gate"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-pgvector",
-      "title": "Extensões e versões do RDS para PostgreSQL",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html",
-      "tier": "service",
-      "detectedAt": "2026-10-28T16:40:37.994Z",
-      "currentHash": "f9b85d7f24d0f4e37bab63b61849cdfea1c8609f6616e82c3f294d50d4c33440",
-      "affectedBlueprintIds": [
-        "aif-d3-cur-rds-vector-capability"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.10.30-aif.1",
+  "generatedAt": "2026-10-30T17:10:18.377Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -806,6 +765,18 @@
       "currentHash": "061462ca4c98158683e4f897447a33f582716211a10c7cbef5b31e4e58cb622d",
       "approvedAt": "2026-10-26T20:11:48.890Z",
       "note": "Fonte atual e 27 questões completas relidas, cálculos hipotéticos e pares conferidos; textos, opções e gabaritos preservados. Hash e decisões individuais em docs/maintenance-2026-10-26.md. Revisão Codex sem revisão humana independente."
+    },
+    {
+      "sourceId": "models-regions",
+      "currentHash": "c254aa37aef60ad5854153083b7839ce8dc454e0168a6df3cee5ef630218ea05",
+      "approvedAt": "2026-10-30T17:10:14.915Z",
+      "note": "Duas fontes atuais e seis questões completas relidas; suporte regional/modelo/API, quota/capacidade, modalidade e versão/configuração pgvector conferidos. Textos e gabaritos preservados. Hashes e decisões em docs/maintenance-2026-10-30.md. Revisão Codex sem revisão humana independente."
+    },
+    {
+      "sourceId": "rds-pgvector",
+      "currentHash": "f9b85d7f24d0f4e37bab63b61849cdfea1c8609f6616e82c3f294d50d4c33440",
+      "approvedAt": "2026-10-30T17:10:14.915Z",
+      "note": "Duas fontes atuais e seis questões completas relidas; suporte regional/modelo/API, quota/capacidade, modalidade e versão/configuração pgvector conferidos. Textos e gabaritos preservados. Hashes e decisões em docs/maintenance-2026-10-30.md. Revisão Codex sem revisão humana independente."
     }
   ]
 }
