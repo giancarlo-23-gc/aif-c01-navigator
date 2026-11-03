@@ -1,14 +1,37 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-02T20:23:04.375Z",
+  "generatedAt": "2026-11-03T17:52:56.265Z",
   "pendingChanges": [
+    {
+      "sourceId": "agents",
+      "title": "Agents for Amazon Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:52:55.575Z",
+      "currentHash": "52caf5020ca808752268e8749badeb51c28f7d3bda9d28adcdb4e2d5fea760cf",
+      "affectedBlueprintIds": [
+        "aif-d2-019",
+        "aif-d2-o01",
+        "aif-d1-cur-agent-boundary",
+        "aif-d1-cur-tools-vs-weights",
+        "aif-d2-cur-conversation-reference",
+        "aif-d2-cur-managed-bedrock-agents"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "bedrock-pricing",
       "title": "Modelos de cobrança Bedrock",
       "url": "https://aws.amazon.com/bedrock/pricing/",
       "tier": "service",
-      "detectedAt": "2026-11-02T20:23:03.341Z",
-      "currentHash": "a5c47e7b9eda1ec75aeba982a1094635860bae7424096a7e24a6bd6aa180f71f",
+      "detectedAt": "2026-11-03T17:52:55.575Z",
+      "currentHash": "823eea2466b952af43cafc7a8ae2963a559a0ddd0307dc42a5851065a0169751",
       "affectedBlueprintIds": [
         "aif-d2-131",
         "aif-d2-132",
@@ -59,6 +82,56 @@
         "aif-d2-cur-regional-model-availability",
         "aif-d2-cur-quota-versus-reserved-capacity",
         "aif-d3-cur-modality-gate"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "prompt-cache",
+      "title": "Prompt caching: elegibilidade, leitura e escrita",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:52:55.575Z",
+      "currentHash": "460e07237faf6de7064074f55e56ab402e94e9ddc4d8f7ef761c03003ba0ab27",
+      "affectedBlueprintIds": [
+        "aif-d2-133",
+        "aif-d3-012",
+        "aif-d2-cur-cache-observed-billing",
+        "aif-d2-cur-cache-expiration",
+        "aif-d3-cur-cache-prefix-placement",
+        "aif-d3-cur-cache-versus-answer"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "prompt-security",
+      "title": "Responsabilidade da aplicação na segurança de prompts",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-injection.html",
+      "tier": "service",
+      "detectedAt": "2026-11-03T17:52:55.575Z",
+      "currentHash": "eaf1db446edda3b7328834695163cd84f6d480e16a1e726cec361cbbc88d0416",
+      "affectedBlueprintIds": [
+        "aif-d3-019",
+        "aif-d3-020",
+        "aif-d3-cur-instruction-data-separation",
+        "aif-d3-cur-external-content-authority",
+        "aif-d3-cur-variable-role",
+        "aif-d3-cur-prompt-secret-risk",
+        "aif-d3-cur-prompt-goal-hijack",
+        "aif-d3-cur-poisoned-demonstration",
+        "aif-d3-cur-tool-result-filter-limit",
+        "aif-d3-cur-adversarial-regression"
       ],
       "status": "pending",
       "requiredActions": [
