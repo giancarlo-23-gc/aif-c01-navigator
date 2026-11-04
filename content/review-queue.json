@@ -1,6 +1,6 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-03T17:52:56.265Z",
+  "generatedAt": "2026-11-04T18:00:33.736Z",
   "pendingChanges": [
     {
       "sourceId": "agents",
@@ -60,6 +60,29 @@
         "aif-d3-cur-customization-cost-horizon",
         "aif-d3-cur-distillation-economics",
         "aif-d3-cur-distillation-generation-expense"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kiro",
+      "title": "Kiro: specs, steering, hooks e ferramentas",
+      "url": "https://kiro.dev/docs/how-kiro-works.md",
+      "tier": "service",
+      "detectedAt": "2026-11-04T18:00:32.739Z",
+      "currentHash": "b85231a08d224edc80d8d43e9e6048509429120953938e1a916a21b7a9ea93d1",
+      "affectedBlueprintIds": [
+        "aif-d2-cur-kiro-development",
+        "aif-d2-cur-kiro-specs",
+        "aif-d2-cur-kiro-steering",
+        "aif-d2-cur-kiro-hooks",
+        "aif-d2-cur-kiro-mcp-integration",
+        "aif-d2-cur-kiro-controls"
       ],
       "status": "pending",
       "requiredActions": [
@@ -132,6 +155,81 @@
         "aif-d3-cur-poisoned-demonstration",
         "aif-d3-cur-tool-result-filter-limit",
         "aif-d3-cur-adversarial-regression"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "strands",
+      "title": "Strands Agents: componentes do agente",
+      "url": "https://strandsagents.com/docs/user-guide/sdk/agents/",
+      "tier": "service",
+      "detectedAt": "2026-11-04T18:00:32.739Z",
+      "currentHash": "6bc719fa57e9666d987a20d8017c5385f58f1cbdbc9ef90473b81826cb36017c",
+      "affectedBlueprintIds": [
+        "aif-d2-017",
+        "aif-d2-019",
+        "aif-d2-021",
+        "aif-d3-011",
+        "aif-d3-022",
+        "aif-d2-m01",
+        "aif-d2-p01",
+        "aif-d2-cur-conversation-advantage",
+        "aif-d2-cur-agent-goal-success",
+        "aif-d2-cur-parameters-not-context",
+        "aif-d2-cur-conversation-reference",
+        "aif-d2-cur-agent-plan-execution",
+        "aif-d2-cur-agent-tool-feedback",
+        "aif-d2-cur-agent-termination",
+        "aif-d2-cur-handoff-context",
+        "aif-d2-cur-agent-output-contract",
+        "aif-d2-cur-checkpoint-versus-memory",
+        "aif-d2-cur-context-compression",
+        "aif-d2-cur-memory-correction",
+        "aif-d2-cur-tool-failure-observation",
+        "aif-d2-cur-strands-sdk",
+        "aif-d2-cur-strands-model-choice",
+        "aif-d2-cur-strands-custom-tools",
+        "aif-d2-cur-strands-runtime-choice",
+        "aif-d2-cur-aws-service-layer-map",
+        "aif-d3-cur-tool-failure-state",
+        "aif-d3-cur-conversation-history",
+        "aif-d3-cur-context-pruning",
+        "aif-d3-cur-summary-state-risk"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "strands-multi",
+      "title": "Strands Agents: coordenação de agentes",
+      "url": "https://strandsagents.com/docs/user-guide/sdk/multi-agent/multi-agent-patterns/",
+      "tier": "service",
+      "detectedAt": "2026-11-04T18:00:32.739Z",
+      "currentHash": "f2a62d444e40b2cbc5b3e2932070aff271a99959c09750888c2b662b3d9ceb4c",
+      "affectedBlueprintIds": [
+        "aif-d2-022",
+        "aif-d2-023",
+        "aif-d2-cur-agent-versus-fixed-automation",
+        "aif-d2-cur-parallel-dependent-tools",
+        "aif-d2-cur-workflow-autonomy",
+        "aif-d2-cur-supervisor-handoff",
+        "aif-d2-cur-handoff-context",
+        "aif-d2-cur-agent-output-contract",
+        "aif-d2-cur-multiagent-complexity",
+        "aif-d2-cur-strands-agent-patterns",
+        "aif-d3-cur-fixed-flow-versus-agent",
+        "aif-d3-cur-task-decomposition"
       ],
       "status": "pending",
       "requiredActions": [
