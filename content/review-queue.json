@@ -1,6 +1,6 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-04T18:00:33.736Z",
+  "generatedAt": "2026-11-05T18:05:08.569Z",
   "pendingChanges": [
     {
       "sourceId": "agents",
@@ -97,8 +97,8 @@
       "title": "Disponibilidade regional de modelos Bedrock",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
       "tier": "service",
-      "detectedAt": "2026-10-31T15:45:41.117Z",
-      "currentHash": "6d546082fe49142d59865515b1627820ccc2bc1f2e97db3cee4521c4fff6069d",
+      "detectedAt": "2026-11-05T18:05:07.522Z",
+      "currentHash": "64bd3f94c2387c56a60ad44547dbec03bddb3be1cc841a48cf86c885b3d2cf3b",
       "affectedBlueprintIds": [
         "aif-d3-001",
         "aif-d2-cur-bedrock-model-feature-check",
@@ -169,8 +169,8 @@
       "title": "Strands Agents: componentes do agente",
       "url": "https://strandsagents.com/docs/user-guide/sdk/agents/",
       "tier": "service",
-      "detectedAt": "2026-11-04T18:00:32.739Z",
-      "currentHash": "6bc719fa57e9666d987a20d8017c5385f58f1cbdbc9ef90473b81826cb36017c",
+      "detectedAt": "2026-11-05T18:05:07.522Z",
+      "currentHash": "ca0677c557f0e95f3a35e0179bfc1ce5157c531cdfd10e02d66417f8f371b169",
       "affectedBlueprintIds": [
         "aif-d2-017",
         "aif-d2-019",
@@ -215,8 +215,8 @@
       "title": "Strands Agents: coordenação de agentes",
       "url": "https://strandsagents.com/docs/user-guide/sdk/multi-agent/multi-agent-patterns/",
       "tier": "service",
-      "detectedAt": "2026-11-04T18:00:32.739Z",
-      "currentHash": "f2a62d444e40b2cbc5b3e2932070aff271a99959c09750888c2b662b3d9ceb4c",
+      "detectedAt": "2026-11-05T18:05:07.522Z",
+      "currentHash": "0cacd442b7c09a72929065e141c20e451e295402c515781bef3475837fcc3359",
       "affectedBlueprintIds": [
         "aif-d2-022",
         "aif-d2-023",
