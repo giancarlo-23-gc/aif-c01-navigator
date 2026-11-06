@@ -1,7 +1,43 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-05T18:05:08.569Z",
+  "generatedAt": "2026-11-06T17:31:43.102Z",
   "pendingChanges": [
+    {
+      "sourceId": "agentcore",
+      "title": "Amazon Bedrock AgentCore",
+      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html",
+      "tier": "service",
+      "detectedAt": "2026-11-06T17:31:41.845Z",
+      "currentHash": "6cd9e8e988cc122720cb3225cfe371762c7010dcb4dc848d738d0ff1fc814e40",
+      "affectedBlueprintIds": [
+        "aif-d2-021",
+        "aif-d2-130",
+        "aif-d3-011",
+        "aif-d2-m01",
+        "aif-d2-cur-checkpoint-versus-memory",
+        "aif-d2-cur-memory-correction",
+        "aif-d2-cur-strands-runtime-choice",
+        "aif-d2-cur-agentcore-runtime",
+        "aif-d2-cur-agentcore-memory",
+        "aif-d2-cur-agentcore-gateway",
+        "aif-d2-cur-agentcore-identity",
+        "aif-d2-cur-agentcore-observability",
+        "aif-d2-cur-agentcore-code-interpreter",
+        "aif-d2-cur-agentcore-browser",
+        "aif-d2-cur-agentcore-evaluations",
+        "aif-d2-cur-agentcore-modularity",
+        "aif-d2-cur-managed-bedrock-agents",
+        "aif-d2-cur-application-end-to-end-latency",
+        "aif-d2-cur-aws-service-layer-map"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "agents",
       "title": "Agents for Amazon Bedrock",
@@ -165,6 +201,24 @@
       ]
     },
     {
+      "sourceId": "rds-pgvector",
+      "title": "Extensões e versões do RDS para PostgreSQL",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html",
+      "tier": "service",
+      "detectedAt": "2026-11-06T17:31:41.845Z",
+      "currentHash": "0723aa835864d1a3fba7811ffb390d2e543ff09188452eb5264e730d47b3d4ef",
+      "affectedBlueprintIds": [
+        "aif-d3-cur-rds-vector-capability"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "strands",
       "title": "Strands Agents: componentes do agente",
       "url": "https://strandsagents.com/docs/user-guide/sdk/agents/",
@@ -230,6 +284,28 @@
         "aif-d2-cur-strands-agent-patterns",
         "aif-d3-cur-fixed-flow-versus-agent",
         "aif-d3-cur-task-decomposition"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "textract",
+      "title": "Amazon Textract",
+      "url": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-11-06T17:31:41.845Z",
+      "currentHash": "05e95d81d1427321275ea56d341a1fe7bfee32526382e6e8e3fb32a662ce7703",
+      "affectedBlueprintIds": [
+        "aif-d1-058",
+        "aif-d1-059",
+        "aif-d1-p01",
+        "aif-d1-cur-scan-to-nlp",
+        "aif-d1-cur-table-relations"
       ],
       "status": "pending",
       "requiredActions": [

@@ -1,6 +1,19 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **8**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **11**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+
+## Amazon Bedrock AgentCore
+
+- Fonte: https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html
+- Detectada em: 2026-11-06T17:31:41.845Z
+- Questões afetadas: aif-d2-021, aif-d2-130, aif-d3-011, aif-d2-m01, aif-d2-cur-checkpoint-versus-memory, aif-d2-cur-memory-correction, aif-d2-cur-strands-runtime-choice, aif-d2-cur-agentcore-runtime, aif-d2-cur-agentcore-memory, aif-d2-cur-agentcore-gateway, aif-d2-cur-agentcore-identity, aif-d2-cur-agentcore-observability, aif-d2-cur-agentcore-code-interpreter, aif-d2-cur-agentcore-browser, aif-d2-cur-agentcore-evaluations, aif-d2-cur-agentcore-modularity, aif-d2-cur-managed-bedrock-agents, aif-d2-cur-application-end-to-end-latency, aif-d2-cur-aws-service-layer-map
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
 ## Agents for Amazon Bedrock
 
@@ -80,6 +93,19 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## Extensões e versões do RDS para PostgreSQL
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html
+- Detectada em: 2026-11-06T17:31:41.845Z
+- Questões afetadas: aif-d3-cur-rds-vector-capability
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Strands Agents: componentes do agente
 
 - Fonte: https://strandsagents.com/docs/user-guide/sdk/agents/
@@ -98,6 +124,19 @@ Checklist:
 - Fonte: https://strandsagents.com/docs/user-guide/sdk/multi-agent/multi-agent-patterns/
 - Detectada em: 2026-11-05T18:05:07.522Z
 - Questões afetadas: aif-d2-022, aif-d2-023, aif-d2-cur-agent-versus-fixed-automation, aif-d2-cur-parallel-dependent-tools, aif-d2-cur-workflow-autonomy, aif-d2-cur-supervisor-handoff, aif-d2-cur-handoff-context, aif-d2-cur-agent-output-contract, aif-d2-cur-multiagent-complexity, aif-d2-cur-strands-agent-patterns, aif-d3-cur-fixed-flow-versus-agent, aif-d3-cur-task-decomposition
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon Textract
+
+- Fonte: https://docs.aws.amazon.com/textract/latest/dg/what-is.html
+- Detectada em: 2026-11-06T17:31:41.845Z
+- Questões afetadas: aif-d1-058, aif-d1-059, aif-d1-p01, aif-d1-cur-scan-to-nlp, aif-d1-cur-table-relations
 
 Checklist:
 
