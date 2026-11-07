@@ -31,7 +31,7 @@ Checklist:
 ## Modelos de cobrança Bedrock
 
 - Fonte: https://aws.amazon.com/bedrock/pricing/
-- Detectada em: 2026-11-03T17:52:55.575Z
+- Detectada em: 2026-11-07T16:28:54.272Z
 - Questões afetadas: aif-d2-131, aif-d2-132, aif-d2-133, aif-d3-001, aif-d5-002, aif-d5-007, aif-d5-008, aif-d5-013, aif-d5-014, aif-d2-cur-retry-unit-cost-calculation, aif-d2-cur-throughput-output-length, aif-d2-cur-total-application-cost, aif-d2-cur-cost-distribution, aif-d2-cur-benchmark-portability, aif-d2-cur-language-token-budget, aif-d2-cur-provisioned-demand-forecast, aif-d2-cur-provisioned-idle-cost, aif-d2-cur-hypothetical-token-price-calculation, aif-d2-cur-cache-observed-billing, aif-d2-cur-input-output-token-estimate, aif-d2-cur-custom-model-serving-check, aif-d3-cur-quality-cost-constraint, aif-d3-cur-task-routing, aif-d3-cur-customization-cost-calculation, aif-d3-cur-customization-cost-horizon, aif-d3-cur-distillation-economics, aif-d3-cur-distillation-generation-expense
 
 Checklist:
@@ -57,7 +57,7 @@ Checklist:
 ## Disponibilidade regional de modelos Bedrock
 
 - Fonte: https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html
-- Detectada em: 2026-11-05T18:05:07.522Z
+- Detectada em: 2026-11-07T16:28:54.272Z
 - Questões afetadas: aif-d3-001, aif-d2-cur-bedrock-model-feature-check, aif-d2-cur-regional-model-availability, aif-d2-cur-quota-versus-reserved-capacity, aif-d3-cur-modality-gate
 
 Checklist:

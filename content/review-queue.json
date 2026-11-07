@@ -1,6 +1,6 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-06T17:31:43.102Z",
+  "generatedAt": "2026-11-07T16:28:55.410Z",
   "pendingChanges": [
     {
       "sourceId": "agentcore",
@@ -66,8 +66,8 @@
       "title": "Modelos de cobrança Bedrock",
       "url": "https://aws.amazon.com/bedrock/pricing/",
       "tier": "service",
-      "detectedAt": "2026-11-03T17:52:55.575Z",
-      "currentHash": "823eea2466b952af43cafc7a8ae2963a559a0ddd0307dc42a5851065a0169751",
+      "detectedAt": "2026-11-07T16:28:54.272Z",
+      "currentHash": "d87a2ab1786f6ed64f046328c31779c129a604f0a490399933b049c04c586987",
       "affectedBlueprintIds": [
         "aif-d2-131",
         "aif-d2-132",
@@ -133,8 +133,8 @@
       "title": "Disponibilidade regional de modelos Bedrock",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
       "tier": "service",
-      "detectedAt": "2026-11-05T18:05:07.522Z",
-      "currentHash": "64bd3f94c2387c56a60ad44547dbec03bddb3be1cc841a48cf86c885b3d2cf3b",
+      "detectedAt": "2026-11-07T16:28:54.272Z",
+      "currentHash": "8640cb3bda7fc57ad710af3d180c5df796fd5e54a1bdba1838345aff5762c9bc",
       "affectedBlueprintIds": [
         "aif-d3-001",
         "aif-d2-cur-bedrock-model-feature-check",
