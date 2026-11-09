@@ -1,6 +1,6 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-08T16:42:04.120Z",
+  "generatedAt": "2026-11-09T20:47:22.446Z",
   "pendingChanges": [
     {
       "sourceId": "agentcore",
@@ -66,8 +66,8 @@
       "title": "Modelos de cobrança Bedrock",
       "url": "https://aws.amazon.com/bedrock/pricing/",
       "tier": "service",
-      "detectedAt": "2026-11-07T16:28:54.272Z",
-      "currentHash": "d87a2ab1786f6ed64f046328c31779c129a604f0a490399933b049c04c586987",
+      "detectedAt": "2026-11-09T20:47:21.796Z",
+      "currentHash": "e547ce2eda678d5f9a03bc40144b46e7f301c733688a72c5df936751740eab91",
       "affectedBlueprintIds": [
         "aif-d2-131",
         "aif-d2-132",
@@ -133,8 +133,8 @@
       "title": "Disponibilidade regional de modelos Bedrock",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
       "tier": "service",
-      "detectedAt": "2026-11-07T16:28:54.272Z",
-      "currentHash": "8640cb3bda7fc57ad710af3d180c5df796fd5e54a1bdba1838345aff5762c9bc",
+      "detectedAt": "2026-11-09T20:47:21.796Z",
+      "currentHash": "7664dc9f5c920da54878b1927ca1356b09cd29147b9f3520818125bf47d18c05",
       "affectedBlueprintIds": [
         "aif-d3-001",
         "aif-d2-cur-bedrock-model-feature-check",
@@ -155,8 +155,8 @@
       "title": "Prompt caching: elegibilidade, leitura e escrita",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html",
       "tier": "service",
-      "detectedAt": "2026-11-03T17:52:55.575Z",
-      "currentHash": "460e07237faf6de7064074f55e56ab402e94e9ddc4d8f7ef761c03003ba0ab27",
+      "detectedAt": "2026-11-09T20:47:21.796Z",
+      "currentHash": "b2db9c6bc3c2507292621f6b9f26000c1ebc6522f40719c9ac8768cedd0c6acf",
       "affectedBlueprintIds": [
         "aif-d2-133",
         "aif-d3-012",
