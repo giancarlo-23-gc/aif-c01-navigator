@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **11**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **13**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Amazon Bedrock AgentCore
 
@@ -20,6 +20,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html
 - Detectada em: 2026-11-03T17:52:55.575Z
 - Questões afetadas: aif-d2-019, aif-d2-o01, aif-d1-cur-agent-boundary, aif-d1-cur-tools-vs-weights, aif-d2-cur-conversation-reference, aif-d2-cur-managed-bedrock-agents
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Aurora PostgreSQL como armazenamento vetorial
+
+- Fonte: https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.VectorDB.html
+- Detectada em: 2026-11-10T17:53:53.002Z
+- Questões afetadas: aif-d3-cur-aurora-vector-choice
 
 Checklist:
 
@@ -85,6 +98,19 @@ Checklist:
 - Fonte: https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-injection.html
 - Detectada em: 2026-11-03T17:52:55.575Z
 - Questões afetadas: aif-d3-019, aif-d3-020, aif-d3-cur-instruction-data-separation, aif-d3-cur-external-content-authority, aif-d3-cur-variable-role, aif-d3-cur-prompt-secret-risk, aif-d3-cur-prompt-goal-hijack, aif-d3-cur-poisoned-demonstration, aif-d3-cur-tool-result-filter-limit, aif-d3-cur-adversarial-regression
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
+## Amazon Quick: trabalho, pesquisa e automação
+
+- Fonte: https://docs.aws.amazon.com/quick/latest/userguide/what-is.html
+- Detectada em: 2026-11-10T17:53:53.002Z
+- Questões afetadas: aif-d2-cur-quick-business-workspace, aif-d2-cur-quick-research, aif-d2-cur-quick-flows, aif-d2-cur-quick-business-automation, aif-d2-cur-quick-sight-continuity, aif-d2-cur-quick-index
 
 Checklist:
 

@@ -1,6 +1,6 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-09T20:47:22.446Z",
+  "generatedAt": "2026-11-10T17:53:53.778Z",
   "pendingChanges": [
     {
       "sourceId": "agentcore",
@@ -52,6 +52,24 @@
         "aif-d1-cur-tools-vs-weights",
         "aif-d2-cur-conversation-reference",
         "aif-d2-cur-managed-bedrock-agents"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "aurora-vector",
+      "title": "Aurora PostgreSQL como armazenamento vetorial",
+      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.VectorDB.html",
+      "tier": "service",
+      "detectedAt": "2026-11-10T17:53:53.002Z",
+      "currentHash": "d68b8e78119fd43b107214c0c251983db96b0861877a33f76e38e3b791dfebc3",
+      "affectedBlueprintIds": [
+        "aif-d3-cur-aurora-vector-choice"
       ],
       "status": "pending",
       "requiredActions": [
@@ -191,6 +209,29 @@
         "aif-d3-cur-poisoned-demonstration",
         "aif-d3-cur-tool-result-filter-limit",
         "aif-d3-cur-adversarial-regression"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "quick",
+      "title": "Amazon Quick: trabalho, pesquisa e automação",
+      "url": "https://docs.aws.amazon.com/quick/latest/userguide/what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-11-10T17:53:53.002Z",
+      "currentHash": "32440afdb6a8ce7dedd1330f034d81259d4304074ec000539a31b3f9ccb00cb6",
+      "affectedBlueprintIds": [
+        "aif-d2-cur-quick-business-workspace",
+        "aif-d2-cur-quick-research",
+        "aif-d2-cur-quick-flows",
+        "aif-d2-cur-quick-business-automation",
+        "aif-d2-cur-quick-sight-continuity",
+        "aif-d2-cur-quick-index"
       ],
       "status": "pending",
       "requiredActions": [
