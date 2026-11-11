@@ -1,6 +1,6 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-10T17:53:53.778Z",
+  "generatedAt": "2026-11-11T17:54:55.739Z",
   "pendingChanges": [
     {
       "sourceId": "agentcore",
@@ -84,8 +84,8 @@
       "title": "Modelos de cobrança Bedrock",
       "url": "https://aws.amazon.com/bedrock/pricing/",
       "tier": "service",
-      "detectedAt": "2026-11-09T20:47:21.796Z",
-      "currentHash": "e547ce2eda678d5f9a03bc40144b46e7f301c733688a72c5df936751740eab91",
+      "detectedAt": "2026-11-11T17:54:54.671Z",
+      "currentHash": "1f7b9c687aa2d6d64c5fb8834648f34a7d45de497272b024d58b9aec395be772",
       "affectedBlueprintIds": [
         "aif-d2-131",
         "aif-d2-132",
@@ -223,8 +223,8 @@
       "title": "Amazon Quick: trabalho, pesquisa e automação",
       "url": "https://docs.aws.amazon.com/quick/latest/userguide/what-is.html",
       "tier": "service",
-      "detectedAt": "2026-11-10T17:53:53.002Z",
-      "currentHash": "32440afdb6a8ce7dedd1330f034d81259d4304074ec000539a31b3f9ccb00cb6",
+      "detectedAt": "2026-11-11T17:54:54.671Z",
+      "currentHash": "48d4e15b1afd6e2d1b22018323e89ac5bbf5c04873aaa193be7c68452040d29e",
       "affectedBlueprintIds": [
         "aif-d2-cur-quick-business-workspace",
         "aif-d2-cur-quick-research",
