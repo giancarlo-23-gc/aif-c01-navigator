@@ -1,6 +1,6 @@
 # Revisão de conteúdo AWS
 
-Alterações pendentes: **13**. As questões afetadas permanecem fora de novas sessões até a aprovação.
+Alterações pendentes: **14**. As questões afetadas permanecem fora de novas sessões até a aprovação.
 
 ## Amazon Bedrock AgentCore
 
@@ -67,10 +67,23 @@ Checklist:
 - [ ] Executar pnpm verify:release e revisar o simulado no navegador.
 - [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
 
+## MCP: arquitetura e primitivas do protocolo
+
+- Fonte: https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture
+- Detectada em: 2026-11-13T17:47:08.716Z
+- Questões afetadas: aif-d2-020, aif-d2-cur-mcp-components, aif-d2-cur-tool-contract, aif-d2-cur-mcp-primitives, aif-d2-cur-mcp-reasoning-boundary, aif-d2-cur-kiro-mcp-integration, aif-d2-cur-kiro-controls, aif-d2-cur-agentcore-gateway
+
+Checklist:
+
+- [ ] Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.
+- [ ] Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.
+- [ ] Executar pnpm verify:release e revisar o simulado no navegador.
+- [ ] Aprovar a fonte somente depois de registrar a decisão editorial.
+
 ## Disponibilidade regional de modelos Bedrock
 
 - Fonte: https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html
-- Detectada em: 2026-11-09T20:47:21.796Z
+- Detectada em: 2026-11-13T17:47:08.716Z
 - Questões afetadas: aif-d3-001, aif-d2-cur-bedrock-model-feature-check, aif-d2-cur-regional-model-availability, aif-d2-cur-quota-versus-reserved-capacity, aif-d3-cur-modality-gate
 
 Checklist:

@@ -1,6 +1,6 @@
 {
   "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-12T18:21:54.064Z",
+  "generatedAt": "2026-11-13T17:47:10.141Z",
   "pendingChanges": [
     {
       "sourceId": "agentcore",
@@ -147,12 +147,37 @@
       ]
     },
     {
+      "sourceId": "mcp-architecture",
+      "title": "MCP: arquitetura e primitivas do protocolo",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+      "tier": "service",
+      "detectedAt": "2026-11-13T17:47:08.716Z",
+      "currentHash": "dbb73770887be083c6a0dd4fb54dba31fa0da9fa0ce946672c88e46ed6999fb7",
+      "affectedBlueprintIds": [
+        "aif-d2-020",
+        "aif-d2-cur-mcp-components",
+        "aif-d2-cur-tool-contract",
+        "aif-d2-cur-mcp-primitives",
+        "aif-d2-cur-mcp-reasoning-boundary",
+        "aif-d2-cur-kiro-mcp-integration",
+        "aif-d2-cur-kiro-controls",
+        "aif-d2-cur-agentcore-gateway"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "models-regions",
       "title": "Disponibilidade regional de modelos Bedrock",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
       "tier": "service",
-      "detectedAt": "2026-11-09T20:47:21.796Z",
-      "currentHash": "7664dc9f5c920da54878b1927ca1356b09cd29147b9f3520818125bf47d18c05",
+      "detectedAt": "2026-11-13T17:47:08.716Z",
+      "currentHash": "229429631ffb939c0198d2cdbcb053d16311948d8ea1b1f4bd8622c06566bdb4",
       "affectedBlueprintIds": [
         "aif-d3-001",
         "aif-d2-cur-bedrock-model-feature-check",
