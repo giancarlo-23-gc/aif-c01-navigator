@@ -1,387 +1,7 @@
 {
-  "version": "2026.10.30-aif.1",
-  "generatedAt": "2026-11-14T16:37:53.393Z",
-  "pendingChanges": [
-    {
-      "sourceId": "agentcore",
-      "title": "Amazon Bedrock AgentCore",
-      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/what-is-bedrock-agentcore.html",
-      "tier": "service",
-      "detectedAt": "2026-11-06T17:31:41.845Z",
-      "currentHash": "6cd9e8e988cc122720cb3225cfe371762c7010dcb4dc848d738d0ff1fc814e40",
-      "affectedBlueprintIds": [
-        "aif-d2-021",
-        "aif-d2-130",
-        "aif-d3-011",
-        "aif-d2-m01",
-        "aif-d2-cur-checkpoint-versus-memory",
-        "aif-d2-cur-memory-correction",
-        "aif-d2-cur-strands-runtime-choice",
-        "aif-d2-cur-agentcore-runtime",
-        "aif-d2-cur-agentcore-memory",
-        "aif-d2-cur-agentcore-gateway",
-        "aif-d2-cur-agentcore-identity",
-        "aif-d2-cur-agentcore-observability",
-        "aif-d2-cur-agentcore-code-interpreter",
-        "aif-d2-cur-agentcore-browser",
-        "aif-d2-cur-agentcore-evaluations",
-        "aif-d2-cur-agentcore-modularity",
-        "aif-d2-cur-managed-bedrock-agents",
-        "aif-d2-cur-application-end-to-end-latency",
-        "aif-d2-cur-aws-service-layer-map"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "agents",
-      "title": "Agents for Amazon Bedrock",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
-      "tier": "service",
-      "detectedAt": "2026-11-03T17:52:55.575Z",
-      "currentHash": "52caf5020ca808752268e8749badeb51c28f7d3bda9d28adcdb4e2d5fea760cf",
-      "affectedBlueprintIds": [
-        "aif-d2-019",
-        "aif-d2-o01",
-        "aif-d1-cur-agent-boundary",
-        "aif-d1-cur-tools-vs-weights",
-        "aif-d2-cur-conversation-reference",
-        "aif-d2-cur-managed-bedrock-agents"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "aurora-vector",
-      "title": "Aurora PostgreSQL como armazenamento vetorial",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/AuroraPostgreSQL.VectorDB.html",
-      "tier": "service",
-      "detectedAt": "2026-11-10T17:53:53.002Z",
-      "currentHash": "d68b8e78119fd43b107214c0c251983db96b0861877a33f76e38e3b791dfebc3",
-      "affectedBlueprintIds": [
-        "aif-d3-cur-aurora-vector-choice"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "bedrock-pricing",
-      "title": "Modelos de cobrança Bedrock",
-      "url": "https://aws.amazon.com/bedrock/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-11-11T17:54:54.671Z",
-      "currentHash": "1f7b9c687aa2d6d64c5fb8834648f34a7d45de497272b024d58b9aec395be772",
-      "affectedBlueprintIds": [
-        "aif-d2-131",
-        "aif-d2-132",
-        "aif-d2-133",
-        "aif-d3-001",
-        "aif-d5-002",
-        "aif-d5-007",
-        "aif-d5-008",
-        "aif-d5-013",
-        "aif-d5-014",
-        "aif-d2-cur-retry-unit-cost-calculation",
-        "aif-d2-cur-throughput-output-length",
-        "aif-d2-cur-total-application-cost",
-        "aif-d2-cur-cost-distribution",
-        "aif-d2-cur-benchmark-portability",
-        "aif-d2-cur-language-token-budget",
-        "aif-d2-cur-provisioned-demand-forecast",
-        "aif-d2-cur-provisioned-idle-cost",
-        "aif-d2-cur-hypothetical-token-price-calculation",
-        "aif-d2-cur-cache-observed-billing",
-        "aif-d2-cur-input-output-token-estimate",
-        "aif-d2-cur-custom-model-serving-check",
-        "aif-d3-cur-quality-cost-constraint",
-        "aif-d3-cur-task-routing",
-        "aif-d3-cur-customization-cost-calculation",
-        "aif-d3-cur-customization-cost-horizon",
-        "aif-d3-cur-distillation-economics",
-        "aif-d3-cur-distillation-generation-expense"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kiro",
-      "title": "Kiro: specs, steering, hooks e ferramentas",
-      "url": "https://kiro.dev/docs/how-kiro-works.md",
-      "tier": "service",
-      "detectedAt": "2026-11-04T18:00:32.739Z",
-      "currentHash": "b85231a08d224edc80d8d43e9e6048509429120953938e1a916a21b7a9ea93d1",
-      "affectedBlueprintIds": [
-        "aif-d2-cur-kiro-development",
-        "aif-d2-cur-kiro-specs",
-        "aif-d2-cur-kiro-steering",
-        "aif-d2-cur-kiro-hooks",
-        "aif-d2-cur-kiro-mcp-integration",
-        "aif-d2-cur-kiro-controls"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "mcp-architecture",
-      "title": "MCP: arquitetura e primitivas do protocolo",
-      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
-      "tier": "service",
-      "detectedAt": "2026-11-13T17:47:08.716Z",
-      "currentHash": "dbb73770887be083c6a0dd4fb54dba31fa0da9fa0ce946672c88e46ed6999fb7",
-      "affectedBlueprintIds": [
-        "aif-d2-020",
-        "aif-d2-cur-mcp-components",
-        "aif-d2-cur-tool-contract",
-        "aif-d2-cur-mcp-primitives",
-        "aif-d2-cur-mcp-reasoning-boundary",
-        "aif-d2-cur-kiro-mcp-integration",
-        "aif-d2-cur-kiro-controls",
-        "aif-d2-cur-agentcore-gateway"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "models-regions",
-      "title": "Disponibilidade regional de modelos Bedrock",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
-      "tier": "service",
-      "detectedAt": "2026-11-13T17:47:08.716Z",
-      "currentHash": "229429631ffb939c0198d2cdbcb053d16311948d8ea1b1f4bd8622c06566bdb4",
-      "affectedBlueprintIds": [
-        "aif-d3-001",
-        "aif-d2-cur-bedrock-model-feature-check",
-        "aif-d2-cur-regional-model-availability",
-        "aif-d2-cur-quota-versus-reserved-capacity",
-        "aif-d3-cur-modality-gate"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "prompt-cache",
-      "title": "Prompt caching: elegibilidade, leitura e escrita",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html",
-      "tier": "service",
-      "detectedAt": "2026-11-09T20:47:21.796Z",
-      "currentHash": "b2db9c6bc3c2507292621f6b9f26000c1ebc6522f40719c9ac8768cedd0c6acf",
-      "affectedBlueprintIds": [
-        "aif-d2-133",
-        "aif-d3-012",
-        "aif-d2-cur-cache-observed-billing",
-        "aif-d2-cur-cache-expiration",
-        "aif-d3-cur-cache-prefix-placement",
-        "aif-d3-cur-cache-versus-answer"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "prompt-security",
-      "title": "Responsabilidade da aplicação na segurança de prompts",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-injection.html",
-      "tier": "service",
-      "detectedAt": "2026-11-03T17:52:55.575Z",
-      "currentHash": "eaf1db446edda3b7328834695163cd84f6d480e16a1e726cec361cbbc88d0416",
-      "affectedBlueprintIds": [
-        "aif-d3-019",
-        "aif-d3-020",
-        "aif-d3-cur-instruction-data-separation",
-        "aif-d3-cur-external-content-authority",
-        "aif-d3-cur-variable-role",
-        "aif-d3-cur-prompt-secret-risk",
-        "aif-d3-cur-prompt-goal-hijack",
-        "aif-d3-cur-poisoned-demonstration",
-        "aif-d3-cur-tool-result-filter-limit",
-        "aif-d3-cur-adversarial-regression"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "quick",
-      "title": "Amazon Quick: trabalho, pesquisa e automação",
-      "url": "https://docs.aws.amazon.com/quick/latest/userguide/what-is.html",
-      "tier": "service",
-      "detectedAt": "2026-11-11T17:54:54.671Z",
-      "currentHash": "48d4e15b1afd6e2d1b22018323e89ac5bbf5c04873aaa193be7c68452040d29e",
-      "affectedBlueprintIds": [
-        "aif-d2-cur-quick-business-workspace",
-        "aif-d2-cur-quick-research",
-        "aif-d2-cur-quick-flows",
-        "aif-d2-cur-quick-business-automation",
-        "aif-d2-cur-quick-sight-continuity",
-        "aif-d2-cur-quick-index"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-pgvector",
-      "title": "Extensões e versões do RDS para PostgreSQL",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html",
-      "tier": "service",
-      "detectedAt": "2026-11-06T17:31:41.845Z",
-      "currentHash": "0723aa835864d1a3fba7811ffb390d2e543ff09188452eb5264e730d47b3d4ef",
-      "affectedBlueprintIds": [
-        "aif-d3-cur-rds-vector-capability"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "strands",
-      "title": "Strands Agents: componentes do agente",
-      "url": "https://strandsagents.com/docs/user-guide/sdk/agents/",
-      "tier": "service",
-      "detectedAt": "2026-11-05T18:05:07.522Z",
-      "currentHash": "ca0677c557f0e95f3a35e0179bfc1ce5157c531cdfd10e02d66417f8f371b169",
-      "affectedBlueprintIds": [
-        "aif-d2-017",
-        "aif-d2-019",
-        "aif-d2-021",
-        "aif-d3-011",
-        "aif-d3-022",
-        "aif-d2-m01",
-        "aif-d2-p01",
-        "aif-d2-cur-conversation-advantage",
-        "aif-d2-cur-agent-goal-success",
-        "aif-d2-cur-parameters-not-context",
-        "aif-d2-cur-conversation-reference",
-        "aif-d2-cur-agent-plan-execution",
-        "aif-d2-cur-agent-tool-feedback",
-        "aif-d2-cur-agent-termination",
-        "aif-d2-cur-handoff-context",
-        "aif-d2-cur-agent-output-contract",
-        "aif-d2-cur-checkpoint-versus-memory",
-        "aif-d2-cur-context-compression",
-        "aif-d2-cur-memory-correction",
-        "aif-d2-cur-tool-failure-observation",
-        "aif-d2-cur-strands-sdk",
-        "aif-d2-cur-strands-model-choice",
-        "aif-d2-cur-strands-custom-tools",
-        "aif-d2-cur-strands-runtime-choice",
-        "aif-d2-cur-aws-service-layer-map",
-        "aif-d3-cur-tool-failure-state",
-        "aif-d3-cur-conversation-history",
-        "aif-d3-cur-context-pruning",
-        "aif-d3-cur-summary-state-risk"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "strands-multi",
-      "title": "Strands Agents: coordenação de agentes",
-      "url": "https://strandsagents.com/docs/user-guide/sdk/multi-agent/multi-agent-patterns/",
-      "tier": "service",
-      "detectedAt": "2026-11-05T18:05:07.522Z",
-      "currentHash": "0cacd442b7c09a72929065e141c20e451e295402c515781bef3475837fcc3359",
-      "affectedBlueprintIds": [
-        "aif-d2-022",
-        "aif-d2-023",
-        "aif-d2-cur-agent-versus-fixed-automation",
-        "aif-d2-cur-parallel-dependent-tools",
-        "aif-d2-cur-workflow-autonomy",
-        "aif-d2-cur-supervisor-handoff",
-        "aif-d2-cur-handoff-context",
-        "aif-d2-cur-agent-output-contract",
-        "aif-d2-cur-multiagent-complexity",
-        "aif-d2-cur-strands-agent-patterns",
-        "aif-d3-cur-fixed-flow-versus-agent",
-        "aif-d3-cur-task-decomposition"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "textract",
-      "title": "Amazon Textract",
-      "url": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html",
-      "tier": "service",
-      "detectedAt": "2026-11-06T17:31:41.845Z",
-      "currentHash": "05e95d81d1427321275ea56d341a1fe7bfee32526382e6e8e3fb32a662ce7703",
-      "affectedBlueprintIds": [
-        "aif-d1-058",
-        "aif-d1-059",
-        "aif-d1-p01",
-        "aif-d1-cur-scan-to-nlp",
-        "aif-d1-cur-table-relations"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.11.14-aif.1",
+  "generatedAt": "2026-11-14T19:57:42.775Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -1157,6 +777,90 @@
       "currentHash": "f9b85d7f24d0f4e37bab63b61849cdfea1c8609f6616e82c3f294d50d4c33440",
       "approvedAt": "2026-10-30T17:10:14.915Z",
       "note": "Duas fontes atuais e seis questões completas relidas; suporte regional/modelo/API, quota/capacidade, modalidade e versão/configuração pgvector conferidos. Textos e gabaritos preservados. Hashes e decisões em docs/maintenance-2026-10-30.md. Revisão Codex sem revisão humana independente."
+    },
+    {
+      "sourceId": "agentcore",
+      "currentHash": "6cd9e8e988cc122720cb3225cfe371762c7010dcb4dc848d738d0ff1fc814e40",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "agents",
+      "currentHash": "52caf5020ca808752268e8749badeb51c28f7d3bda9d28adcdb4e2d5fea760cf",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "aurora-vector",
+      "currentHash": "d68b8e78119fd43b107214c0c251983db96b0861877a33f76e38e3b791dfebc3",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "bedrock-pricing",
+      "currentHash": "1f7b9c687aa2d6d64c5fb8834648f34a7d45de497272b024d58b9aec395be772",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "kiro",
+      "currentHash": "b85231a08d224edc80d8d43e9e6048509429120953938e1a916a21b7a9ea93d1",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "mcp-architecture",
+      "currentHash": "dbb73770887be083c6a0dd4fb54dba31fa0da9fa0ce946672c88e46ed6999fb7",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "models-regions",
+      "currentHash": "229429631ffb939c0198d2cdbcb053d16311948d8ea1b1f4bd8622c06566bdb4",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "prompt-cache",
+      "currentHash": "b2db9c6bc3c2507292621f6b9f26000c1ebc6522f40719c9ac8768cedd0c6acf",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "prompt-security",
+      "currentHash": "eaf1db446edda3b7328834695163cd84f6d480e16a1e726cec361cbbc88d0416",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "quick",
+      "currentHash": "48d4e15b1afd6e2d1b22018323e89ac5bbf5c04873aaa193be7c68452040d29e",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "rds-pgvector",
+      "currentHash": "0723aa835864d1a3fba7811ffb390d2e543ff09188452eb5264e730d47b3d4ef",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "strands",
+      "currentHash": "ca0677c557f0e95f3a35e0179bfc1ce5157c531cdfd10e02d66417f8f371b169",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "strands-multi",
+      "currentHash": "0cacd442b7c09a72929065e141c20e451e295402c515781bef3475837fcc3359",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "textract",
+      "currentHash": "05e95d81d1427321275ea56d341a1fe7bfee32526382e6e8e3fb32a662ce7703",
+      "approvedAt": "2026-11-14T19:57:41.683Z",
+      "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
     }
   ]
 }
