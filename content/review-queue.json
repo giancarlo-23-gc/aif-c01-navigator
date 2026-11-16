@@ -1,7 +1,33 @@
 {
   "version": "2026.11.14-aif.2",
-  "generatedAt": "2026-11-15T17:13:57.179Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-11-16T20:30:57.017Z",
+  "pendingChanges": [
+    {
+      "sourceId": "mcp-architecture",
+      "title": "MCP: arquitetura e primitivas do protocolo",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+      "tier": "service",
+      "detectedAt": "2026-11-16T20:30:56.036Z",
+      "currentHash": "d3951dd80280234de46b145031a068c6b8198df83b2fc48eab94cf5dbfea1e0f",
+      "affectedBlueprintIds": [
+        "aif-d2-020",
+        "aif-d2-cur-mcp-components",
+        "aif-d2-cur-tool-contract",
+        "aif-d2-cur-mcp-primitives",
+        "aif-d2-cur-mcp-reasoning-boundary",
+        "aif-d2-cur-kiro-mcp-integration",
+        "aif-d2-cur-kiro-controls",
+        "aif-d2-cur-agentcore-gateway"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {
