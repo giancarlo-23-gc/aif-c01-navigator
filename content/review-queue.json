@@ -1,7 +1,72 @@
 {
   "version": "2026.11.14-aif.2",
-  "generatedAt": "2026-11-16T20:30:57.017Z",
+  "generatedAt": "2026-11-17T19:12:41.825Z",
   "pendingChanges": [
+    {
+      "sourceId": "bedrock-pricing",
+      "title": "Modelos de cobrança Bedrock",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:12:41.107Z",
+      "currentHash": "c73d86eefeba9388176ca25a5886bc4e73d21e33ef942f756f7ef2ee9c2c7857",
+      "affectedBlueprintIds": [
+        "aif-d2-131",
+        "aif-d2-132",
+        "aif-d2-133",
+        "aif-d3-001",
+        "aif-d5-002",
+        "aif-d5-007",
+        "aif-d5-008",
+        "aif-d5-013",
+        "aif-d5-014",
+        "aif-d2-cur-retry-unit-cost-calculation",
+        "aif-d2-cur-throughput-output-length",
+        "aif-d2-cur-total-application-cost",
+        "aif-d2-cur-cost-distribution",
+        "aif-d2-cur-benchmark-portability",
+        "aif-d2-cur-language-token-budget",
+        "aif-d2-cur-provisioned-demand-forecast",
+        "aif-d2-cur-provisioned-idle-cost",
+        "aif-d2-cur-hypothetical-token-price-calculation",
+        "aif-d2-cur-cache-observed-billing",
+        "aif-d2-cur-input-output-token-estimate",
+        "aif-d2-cur-custom-model-serving-check",
+        "aif-d3-cur-quality-cost-constraint",
+        "aif-d3-cur-task-routing",
+        "aif-d3-cur-customization-cost-calculation",
+        "aif-d3-cur-customization-cost-horizon",
+        "aif-d3-cur-distillation-economics",
+        "aif-d3-cur-distillation-generation-expense"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "kms-key-policy",
+      "title": "KMS: políticas de chave e habilitação de acesso",
+      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html",
+      "tier": "service",
+      "detectedAt": "2026-11-17T19:12:41.107Z",
+      "currentHash": "0914860674761986bfb6f96b79bae3146ed1de60ea396435052ebbdcd6e0025e",
+      "affectedBlueprintIds": [
+        "aif-d5-003",
+        "aif-d5-cur-kms-policy-enablement",
+        "aif-d5-cur-key-creator-permissions",
+        "aif-d5-cur-decrypt-vs-manage"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "mcp-architecture",
       "title": "MCP: arquitetura e primitivas do protocolo",
