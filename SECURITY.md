@@ -15,8 +15,16 @@ Erros de enunciado, gabarito ou explicação continuam no botão **Reportar prob
 - O código executado no navegador não contém credenciais.
 - A publicação passa por validação de conteúdo, testes e build reproduzível.
 - Dependências de GitHub Actions são fixadas por hash de commit.
-- Os arquivos de conteúdo publicados possuem hashes SHA-256 em `public/content/latest.json`.
+- Os arquivos de conteúdo publicados possuem hashes SHA-256 em `content/latest.json` na distribuição (`public/content/latest.json` no código-fonte).
+
+## Proteções da versão 2026.11.18-aif.1
+
+A versão adiciona CSP ao build estático para limitar scripts e conexões à própria origem, valida identificadores importados, restringe o worker e o precache à pasta do AIF e recusa arquivos sensíveis e padrões de credenciais antes de empacotar. Os workflows restringem publicação ao histórico de `main`, exigem auditorias completas de dependências, limitam o repasse de secrets e removem a chave temporária após o uso. A publicação exige aprovação de todos os gates. Detalhes técnicos e evidências são mantidos no repositório-fonte privado.
+
+No GitHub já foram habilitados os alertas e as atualizações de segurança do Dependabot e uma regra da distribuição que impede exclusão e force push da branch principal. O canal privado de relatos e a proteção de push contra segredos da distribuição foram conferidos.
 
 ## Limites
 
 Links externos para documentação são operados pelos respectivos sites. O projeto não controla disponibilidade, políticas ou conteúdo carregado fora do aplicativo.
+
+Uma varredura por padrões não comprova ausência de todos os tipos de segredo ou vulnerabilidade. Os hashes detectam alterações, mas não são assinatura independente contra comprometimento do repositório. Pastas no mesmo domínio compartilham a origem do navegador; prefixos de storage/cache evitam colisões, mas não isolam aplicações hostis. GitHub Pages não aplica arquivos `_headers`; a CSP preparada usa meta HTML e não oferece `frame-ancestors` por esse mecanismo. A política permite estilos inline necessários à interface, sem permitir scripts inline ou eval.

@@ -1,288 +1,7 @@
 {
-  "version": "2026.11.14-aif.2",
-  "generatedAt": "2026-11-18T18:52:19.259Z",
-  "pendingChanges": [
-    {
-      "sourceId": "bedrock-pricing",
-      "title": "Modelos de cobrança Bedrock",
-      "url": "https://aws.amazon.com/bedrock/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-11-17T19:12:41.107Z",
-      "currentHash": "c73d86eefeba9388176ca25a5886bc4e73d21e33ef942f756f7ef2ee9c2c7857",
-      "affectedBlueprintIds": [
-        "aif-d2-131",
-        "aif-d2-132",
-        "aif-d2-133",
-        "aif-d3-001",
-        "aif-d5-002",
-        "aif-d5-007",
-        "aif-d5-008",
-        "aif-d5-013",
-        "aif-d5-014",
-        "aif-d2-cur-retry-unit-cost-calculation",
-        "aif-d2-cur-throughput-output-length",
-        "aif-d2-cur-total-application-cost",
-        "aif-d2-cur-cost-distribution",
-        "aif-d2-cur-benchmark-portability",
-        "aif-d2-cur-language-token-budget",
-        "aif-d2-cur-provisioned-demand-forecast",
-        "aif-d2-cur-provisioned-idle-cost",
-        "aif-d2-cur-hypothetical-token-price-calculation",
-        "aif-d2-cur-cache-observed-billing",
-        "aif-d2-cur-input-output-token-estimate",
-        "aif-d2-cur-custom-model-serving-check",
-        "aif-d3-cur-quality-cost-constraint",
-        "aif-d3-cur-task-routing",
-        "aif-d3-cur-customization-cost-calculation",
-        "aif-d3-cur-customization-cost-horizon",
-        "aif-d3-cur-distillation-economics",
-        "aif-d3-cur-distillation-generation-expense"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "cloudtrail",
-      "title": "AWS CloudTrail",
-      "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
-      "tier": "service",
-      "detectedAt": "2026-11-18T18:52:18.496Z",
-      "currentHash": "4ae6399dc3756bff615fce1c00f010bd4ecb2dda59e1eba8fe6d7c1fca10d0cd",
-      "affectedBlueprintIds": [
-        "aif-d4-013",
-        "aif-d5-003",
-        "aif-d5-006",
-        "aif-d5-009",
-        "aif-d5-010",
-        "aif-d5-011",
-        "aif-d5-012",
-        "aif-d5-m02",
-        "aif-d5-p01",
-        "aif-d5-cur-config-historical-question",
-        "aif-d5-cur-invocation-logging-disabled",
-        "aif-d5-cur-source-log-vs-processing-region",
-        "aif-d5-cur-consent-change-record"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "kms-key-policy",
-      "title": "KMS: políticas de chave e habilitação de acesso",
-      "url": "https://docs.aws.amazon.com/kms/latest/developerguide/key-policies.html",
-      "tier": "service",
-      "detectedAt": "2026-11-17T19:12:41.107Z",
-      "currentHash": "0914860674761986bfb6f96b79bae3146ed1de60ea396435052ebbdcd6e0025e",
-      "affectedBlueprintIds": [
-        "aif-d5-003",
-        "aif-d5-cur-kms-policy-enablement",
-        "aif-d5-cur-key-creator-permissions",
-        "aif-d5-cur-decrypt-vs-manage"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "mcp-architecture",
-      "title": "MCP: arquitetura e primitivas do protocolo",
-      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
-      "tier": "service",
-      "detectedAt": "2026-11-16T20:30:56.036Z",
-      "currentHash": "d3951dd80280234de46b145031a068c6b8198df83b2fc48eab94cf5dbfea1e0f",
-      "affectedBlueprintIds": [
-        "aif-d2-020",
-        "aif-d2-cur-mcp-components",
-        "aif-d2-cur-tool-contract",
-        "aif-d2-cur-mcp-primitives",
-        "aif-d2-cur-mcp-reasoning-boundary",
-        "aif-d2-cur-kiro-mcp-integration",
-        "aif-d2-cur-kiro-controls",
-        "aif-d2-cur-agentcore-gateway"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rag",
-      "title": "Amazon Bedrock Knowledge Bases",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html",
-      "tier": "service",
-      "detectedAt": "2026-11-18T18:52:18.496Z",
-      "currentHash": "c618966bcd3aab894b81f6d2f640aafddc9c831d3b72a26437ce0a1bc4fbcd2d",
-      "affectedBlueprintIds": [
-        "aif-d2-003",
-        "aif-d3-002",
-        "aif-d3-033",
-        "aif-d3-m01",
-        "aif-d3-m02",
-        "aif-d3-p01",
-        "aif-d1-cur-pretrained-freshness",
-        "aif-d2-cur-bedrock-knowledge-bases-service",
-        "aif-d3-cur-citation-support",
-        "aif-d3-cur-ingestion-refresh",
-        "aif-d3-cur-source-conflict",
-        "aif-d3-cur-missing-evidence-contract",
-        "aif-d3-cur-table-parsing-failure",
-        "aif-d3-cur-multimodal-rag-design",
-        "aif-d3-cur-retrieve-without-generate",
-        "aif-d3-cur-structured-live-data",
-        "aif-d3-cur-combine-rag-finetuning",
-        "aif-d3-cur-temporal-context",
-        "aif-d3-cur-adaptation-combination"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rag-config",
-      "title": "Configuração de recuperação, filtros e geração",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/kb-test-config.html",
-      "tier": "service",
-      "detectedAt": "2026-11-18T18:52:18.496Z",
-      "currentHash": "710866801ffb5eb962d20f8bfb459f05575358f83e95f7d7e5e9fa696dd5df81",
-      "affectedBlueprintIds": [
-        "aif-d3-008",
-        "aif-d3-009",
-        "aif-d3-010",
-        "aif-d3-cur-top-k-two-meanings",
-        "aif-d3-cur-streaming-latency",
-        "aif-d3-cur-source-conflict",
-        "aif-d3-cur-retrieval-context-budget",
-        "aif-d3-cur-query-decomposition",
-        "aif-d3-cur-retrieve-without-generate",
-        "aif-d3-cur-retrieval-result-count"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rag-vector-setup",
-      "title": "Compatibilidade de índices para Knowledge Bases",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-setup.html",
-      "tier": "service",
-      "detectedAt": "2026-11-18T18:52:18.496Z",
-      "currentHash": "30c08af09397e12bacc644056400c7272a86314ec555e0f69a18af968c8f0603",
-      "affectedBlueprintIds": [
-        "aif-d3-004",
-        "aif-d3-cur-embedding-space-consistency",
-        "aif-d3-cur-embedding-dimension-migration",
-        "aif-d3-cur-vector-original-text",
-        "aif-d3-cur-aurora-vector-choice"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "strands",
-      "title": "Strands Agents: componentes do agente",
-      "url": "https://strandsagents.com/docs/user-guide/sdk/agents/",
-      "tier": "service",
-      "detectedAt": "2026-11-18T18:52:18.496Z",
-      "currentHash": "3b2476988aaf4320f67d209715d59cf0507d5103c452511c8fcd766d043ba9bd",
-      "affectedBlueprintIds": [
-        "aif-d2-017",
-        "aif-d2-019",
-        "aif-d2-021",
-        "aif-d3-011",
-        "aif-d3-022",
-        "aif-d2-m01",
-        "aif-d2-p01",
-        "aif-d2-cur-conversation-advantage",
-        "aif-d2-cur-agent-goal-success",
-        "aif-d2-cur-parameters-not-context",
-        "aif-d2-cur-conversation-reference",
-        "aif-d2-cur-agent-plan-execution",
-        "aif-d2-cur-agent-tool-feedback",
-        "aif-d2-cur-agent-termination",
-        "aif-d2-cur-handoff-context",
-        "aif-d2-cur-agent-output-contract",
-        "aif-d2-cur-checkpoint-versus-memory",
-        "aif-d2-cur-context-compression",
-        "aif-d2-cur-memory-correction",
-        "aif-d2-cur-tool-failure-observation",
-        "aif-d2-cur-strands-sdk",
-        "aif-d2-cur-strands-model-choice",
-        "aif-d2-cur-strands-custom-tools",
-        "aif-d2-cur-strands-runtime-choice",
-        "aif-d2-cur-aws-service-layer-map",
-        "aif-d3-cur-tool-failure-state",
-        "aif-d3-cur-conversation-history",
-        "aif-d3-cur-context-pruning",
-        "aif-d3-cur-summary-state-risk"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "strands-multi",
-      "title": "Strands Agents: coordenação de agentes",
-      "url": "https://strandsagents.com/docs/user-guide/sdk/multi-agent/multi-agent-patterns/",
-      "tier": "service",
-      "detectedAt": "2026-11-18T18:52:18.496Z",
-      "currentHash": "cb1fa5e7c38b1bd826eb7fbcc517918077f5f058f89e9949bb08b9761a4327c6",
-      "affectedBlueprintIds": [
-        "aif-d2-022",
-        "aif-d2-023",
-        "aif-d2-cur-agent-versus-fixed-automation",
-        "aif-d2-cur-parallel-dependent-tools",
-        "aif-d2-cur-workflow-autonomy",
-        "aif-d2-cur-supervisor-handoff",
-        "aif-d2-cur-handoff-context",
-        "aif-d2-cur-agent-output-contract",
-        "aif-d2-cur-multiagent-complexity",
-        "aif-d2-cur-strands-agent-patterns",
-        "aif-d3-cur-fixed-flow-versus-agent",
-        "aif-d3-cur-task-decomposition"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.11.18-aif.1",
+  "generatedAt": "2026-11-18T20:38:10.126Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -1142,6 +861,60 @@
       "currentHash": "05e95d81d1427321275ea56d341a1fe7bfee32526382e6e8e3fb32a662ce7703",
       "approvedAt": "2026-11-14T19:57:41.683Z",
       "note": "Leitura editorial de 14/11/2026 e conferência individual dos 123 itens mapeados concluídas; nomes AWS Quick atualizados e gabaritos preservados. Evidências específicas em content/source-reading.json e content/editorial-release.json; registro em docs/exam-calibration-2026-11-14.md."
+    },
+    {
+      "sourceId": "bedrock-pricing",
+      "currentHash": "c73d86eefeba9388176ca25a5886bc4e73d21e33ef942f756f7ef2ee9c2c7857",
+      "approvedAt": "2026-11-18T13:56:46.666Z",
+      "note": "Relidos snapshots e 83 itens individualmente em 18/11, registrados no ledger e no relatório docs/final-review-2026-11-18.md; dois feedbacks/exemplos esclarecidos, sem alterar gabaritos."
+    },
+    {
+      "sourceId": "cloudtrail",
+      "currentHash": "4ae6399dc3756bff615fce1c00f010bd4ecb2dda59e1eba8fe6d7c1fca10d0cd",
+      "approvedAt": "2026-11-18T13:56:46.666Z",
+      "note": "Relidos snapshots e 83 itens individualmente em 18/11, registrados no ledger e no relatório docs/final-review-2026-11-18.md; dois feedbacks/exemplos esclarecidos, sem alterar gabaritos."
+    },
+    {
+      "sourceId": "kms-key-policy",
+      "currentHash": "70e3db27a3f88d536d0a07093f4319d290b2182825b85a8efd6c5f25a9627c3b",
+      "approvedAt": "2026-11-18T13:56:46.666Z",
+      "note": "Relidos snapshots e 83 itens individualmente em 18/11, registrados no ledger e no relatório docs/final-review-2026-11-18.md; dois feedbacks/exemplos esclarecidos, sem alterar gabaritos."
+    },
+    {
+      "sourceId": "mcp-architecture",
+      "currentHash": "d3951dd80280234de46b145031a068c6b8198df83b2fc48eab94cf5dbfea1e0f",
+      "approvedAt": "2026-11-18T13:56:46.666Z",
+      "note": "Relidos snapshots e 83 itens individualmente em 18/11, registrados no ledger e no relatório docs/final-review-2026-11-18.md; dois feedbacks/exemplos esclarecidos, sem alterar gabaritos."
+    },
+    {
+      "sourceId": "rag",
+      "currentHash": "c618966bcd3aab894b81f6d2f640aafddc9c831d3b72a26437ce0a1bc4fbcd2d",
+      "approvedAt": "2026-11-18T13:56:46.666Z",
+      "note": "Relidos snapshots e 83 itens individualmente em 18/11, registrados no ledger e no relatório docs/final-review-2026-11-18.md; dois feedbacks/exemplos esclarecidos, sem alterar gabaritos."
+    },
+    {
+      "sourceId": "rag-config",
+      "currentHash": "710866801ffb5eb962d20f8bfb459f05575358f83e95f7d7e5e9fa696dd5df81",
+      "approvedAt": "2026-11-18T13:56:46.666Z",
+      "note": "Relidos snapshots e 83 itens individualmente em 18/11, registrados no ledger e no relatório docs/final-review-2026-11-18.md; dois feedbacks/exemplos esclarecidos, sem alterar gabaritos."
+    },
+    {
+      "sourceId": "rag-vector-setup",
+      "currentHash": "30c08af09397e12bacc644056400c7272a86314ec555e0f69a18af968c8f0603",
+      "approvedAt": "2026-11-18T13:56:46.666Z",
+      "note": "Relidos snapshots e 83 itens individualmente em 18/11, registrados no ledger e no relatório docs/final-review-2026-11-18.md; dois feedbacks/exemplos esclarecidos, sem alterar gabaritos."
+    },
+    {
+      "sourceId": "strands",
+      "currentHash": "3b2476988aaf4320f67d209715d59cf0507d5103c452511c8fcd766d043ba9bd",
+      "approvedAt": "2026-11-18T20:38:08.753Z",
+      "note": "Relidas anatomia e coordenação Strands e os 39 itens distintos mapeados, inclusive gabaritos, alternativas e exemplos. Revisão específica registrada em source-reading e editorial-release.sourceReview em 18/11, sem alteração de questões. Guia distingue Graph/Swarm/workflow em código, estados e limites da supervisão."
+    },
+    {
+      "sourceId": "strands-multi",
+      "currentHash": "cb1fa5e7c38b1bd826eb7fbcc517918077f5f058f89e9949bb08b9761a4327c6",
+      "approvedAt": "2026-11-18T20:38:08.753Z",
+      "note": "Relidas anatomia e coordenação Strands e os 39 itens distintos mapeados, inclusive gabaritos, alternativas e exemplos. Revisão específica registrada em source-reading e editorial-release.sourceReview em 18/11, sem alteração de questões. Guia distingue Graph/Swarm/workflow em código, estados e limites da supervisão."
     }
   ]
 }

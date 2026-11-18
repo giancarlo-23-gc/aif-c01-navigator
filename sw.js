@@ -1,7 +1,8 @@
-const CACHE_VERSION = 'aif-navigator-42b2b6d610a90078ccc6';
+const CACHE_VERSION = 'aif-navigator-a3b2c46483b49d26f72e';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const CONTENT_CACHE = `${CACHE_VERSION}-content`;
 const BASE_URL = self.registration.scope;
+const BASE_PATH = new URL(BASE_URL).pathname;
 const resolveUrl = (path = '') =>
   new URL(path.replace(/^\//, ''), BASE_URL).toString();
 const PRECACHE_MANIFEST = resolveUrl('precache-manifest.json');
@@ -20,6 +21,19 @@ const APP_SHELL = [
   'content/review-queue.json',
   'content/content-policy.json',
 ].map(resolveUrl);
+
+function precacheUrl(file) {
+  if (typeof file !== 'string' || !file || /[\\?#]|%2f|%5c/i.test(file))
+    throw new Error('Caminho offline inválido.');
+  const url = new URL(file, BASE_URL);
+  if (
+    file.startsWith('/') ||
+    url.origin !== self.location.origin ||
+    !url.pathname.startsWith(BASE_PATH)
+  )
+    throw new Error('Arquivo offline fora do escopo AIF.');
+  return url.href;
+}
 
 function rememberResponse(event, cacheName, response) {
   if (!response.ok) return;
@@ -44,7 +58,7 @@ self.addEventListener('install', (event) => {
         throw new Error('Manifesto offline indisponível.');
       const manifest = await manifestResponse.clone().json();
       const files = Array.isArray(manifest.files) ? manifest.files : [];
-      const urls = [...new Set([...APP_SHELL, ...files.map(resolveUrl)])];
+      const urls = [...new Set([...APP_SHELL, ...files.map(precacheUrl)])];
       await Promise.all(
         urls.map(async (url) => {
           const response = await fetch(url, { cache: 'reload' });
@@ -83,6 +97,9 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
+  // Uma aba controlada pode consultar outras pastas da mesma origem.
+  // Esses pedidos não pertencem ao cache ou ao shell deste aplicativo.
+  if (!url.pathname.startsWith(BASE_PATH)) return;
 
   if (event.request.mode === 'navigate') {
     event.respondWith(
