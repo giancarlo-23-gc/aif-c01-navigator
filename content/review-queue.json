@@ -1,7 +1,30 @@
 {
   "version": "2026.11.19-aif.1",
-  "generatedAt": "2026-11-19T19:00:32.487Z",
-  "pendingChanges": [],
+  "generatedAt": "2026-11-20T18:38:09.487Z",
+  "pendingChanges": [
+    {
+      "sourceId": "textract",
+      "title": "Amazon Textract",
+      "url": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-11-20T18:38:08.816Z",
+      "currentHash": "3da27d487befa97164beb85bb5ed60dfc7d3d1d659663bddf206fdedf394ead8",
+      "affectedBlueprintIds": [
+        "aif-d1-058",
+        "aif-d1-059",
+        "aif-d1-p01",
+        "aif-d1-cur-scan-to-nlp",
+        "aif-d1-cur-table-relations"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    }
+  ],
   "discoveryChanges": [],
   "approvedChanges": [
     {
