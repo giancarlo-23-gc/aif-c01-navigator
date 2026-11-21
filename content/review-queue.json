@@ -1,7 +1,30 @@
 {
   "version": "2026.11.19-aif.1",
-  "generatedAt": "2026-11-20T18:38:09.487Z",
+  "generatedAt": "2026-11-21T17:36:31.816Z",
   "pendingChanges": [
+    {
+      "sourceId": "quick",
+      "title": "AWS Quick: trabalho, pesquisa e automação",
+      "url": "https://docs.aws.amazon.com/quick/latest/userguide/what-is.html",
+      "tier": "service",
+      "detectedAt": "2026-11-21T17:36:30.792Z",
+      "currentHash": "2fe3a1e9228ba9810aeea7ba6a77b658d79b1acc1f0124ac594b3465edb774a4",
+      "affectedBlueprintIds": [
+        "aif-d2-cur-quick-business-workspace",
+        "aif-d2-cur-quick-research",
+        "aif-d2-cur-quick-flows",
+        "aif-d2-cur-quick-business-automation",
+        "aif-d2-cur-quick-sight-continuity",
+        "aif-d2-cur-quick-index"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "textract",
       "title": "Amazon Textract",
