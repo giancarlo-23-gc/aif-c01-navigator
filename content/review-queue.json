@@ -1,7 +1,73 @@
 {
   "version": "2026.11.19-aif.1",
-  "generatedAt": "2026-11-22T17:51:31.569Z",
+  "generatedAt": "2026-11-23T22:04:15.284Z",
   "pendingChanges": [
+    {
+      "sourceId": "bedrock-pricing",
+      "title": "Modelos de cobrança Bedrock",
+      "url": "https://aws.amazon.com/bedrock/pricing/",
+      "tier": "service",
+      "detectedAt": "2026-11-23T22:04:14.139Z",
+      "currentHash": "54bf913350261bd7d4415f3dd6bda64bae57cd49a508657c1c01cffe1b2b39d3",
+      "affectedBlueprintIds": [
+        "aif-d2-131",
+        "aif-d2-132",
+        "aif-d2-133",
+        "aif-d3-001",
+        "aif-d5-002",
+        "aif-d5-007",
+        "aif-d5-008",
+        "aif-d5-013",
+        "aif-d5-014",
+        "aif-d2-cur-retry-unit-cost-calculation",
+        "aif-d2-cur-throughput-output-length",
+        "aif-d2-cur-total-application-cost",
+        "aif-d2-cur-cost-distribution",
+        "aif-d2-cur-benchmark-portability",
+        "aif-d2-cur-language-token-budget",
+        "aif-d2-cur-provisioned-demand-forecast",
+        "aif-d2-cur-provisioned-idle-cost",
+        "aif-d2-cur-hypothetical-token-price-calculation",
+        "aif-d2-cur-cache-observed-billing",
+        "aif-d2-cur-input-output-token-estimate",
+        "aif-d2-cur-custom-model-serving-check",
+        "aif-d3-cur-quality-cost-constraint",
+        "aif-d3-cur-task-routing",
+        "aif-d3-cur-customization-cost-calculation",
+        "aif-d3-cur-customization-cost-horizon",
+        "aif-d3-cur-distillation-economics",
+        "aif-d3-cur-distillation-generation-expense"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
+      "sourceId": "models-regions",
+      "title": "Disponibilidade regional de modelos Bedrock",
+      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
+      "tier": "service",
+      "detectedAt": "2026-11-23T22:04:14.139Z",
+      "currentHash": "eb5aba7405634736b2eac27f41d5d673aa5197ec444a2f0ca70b01e9baebde41",
+      "affectedBlueprintIds": [
+        "aif-d3-001",
+        "aif-d2-cur-bedrock-model-feature-check",
+        "aif-d2-cur-regional-model-availability",
+        "aif-d2-cur-quota-versus-reserved-capacity",
+        "aif-d3-cur-modality-gate"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
     {
       "sourceId": "quick",
       "title": "AWS Quick: trabalho, pesquisa e automação",
