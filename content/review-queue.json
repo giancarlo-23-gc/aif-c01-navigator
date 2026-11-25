@@ -1,14 +1,14 @@
 {
   "version": "2026.11.19-aif.1",
-  "generatedAt": "2026-11-24T20:41:00.698Z",
+  "generatedAt": "2026-11-25T19:57:53.962Z",
   "pendingChanges": [
     {
       "sourceId": "bedrock-pricing",
       "title": "Modelos de cobrança Bedrock",
       "url": "https://aws.amazon.com/bedrock/pricing/",
       "tier": "service",
-      "detectedAt": "2026-11-23T22:04:14.139Z",
-      "currentHash": "54bf913350261bd7d4415f3dd6bda64bae57cd49a508657c1c01cffe1b2b39d3",
+      "detectedAt": "2026-11-25T19:57:52.986Z",
+      "currentHash": "5d12d0d745eb70f9763f96eab0d62648990ea55f0e4dda3263b1cfc41340d7df",
       "affectedBlueprintIds": [
         "aif-d2-131",
         "aif-d2-132",
@@ -47,12 +47,37 @@
       ]
     },
     {
+      "sourceId": "mcp-architecture",
+      "title": "MCP: arquitetura e primitivas do protocolo",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+      "tier": "service",
+      "detectedAt": "2026-11-25T19:57:52.986Z",
+      "currentHash": "e0a8522fea6e8a9c8244b6231bf65f1845915f607921060b2bc7a5afaca07f75",
+      "affectedBlueprintIds": [
+        "aif-d2-020",
+        "aif-d2-cur-mcp-components",
+        "aif-d2-cur-tool-contract",
+        "aif-d2-cur-mcp-primitives",
+        "aif-d2-cur-mcp-reasoning-boundary",
+        "aif-d2-cur-kiro-mcp-integration",
+        "aif-d2-cur-kiro-controls",
+        "aif-d2-cur-agentcore-gateway"
+      ],
+      "status": "pending",
+      "requiredActions": [
+        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
+        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
+        "Executar pnpm verify:release e revisar o simulado no navegador.",
+        "Aprovar a fonte somente depois de registrar a decisão editorial."
+      ]
+    },
+    {
       "sourceId": "models-regions",
       "title": "Disponibilidade regional de modelos Bedrock",
       "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
       "tier": "service",
-      "detectedAt": "2026-11-23T22:04:14.139Z",
-      "currentHash": "eb5aba7405634736b2eac27f41d5d673aa5197ec444a2f0ca70b01e9baebde41",
+      "detectedAt": "2026-11-25T19:57:52.986Z",
+      "currentHash": "81ed32c4b2c733f3b8cd8ef45c4ee24daef98f9c5ef82edc583d0d98bde358ba",
       "affectedBlueprintIds": [
         "aif-d3-001",
         "aif-d2-cur-bedrock-model-feature-check",
