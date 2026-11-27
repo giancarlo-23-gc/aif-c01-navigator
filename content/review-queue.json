@@ -1,237 +1,7 @@
 {
-  "version": "2026.11.19-aif.1",
-  "generatedAt": "2026-11-26T19:40:03.482Z",
-  "pendingChanges": [
-    {
-      "sourceId": "bedrock-pricing",
-      "title": "Modelos de cobrança Bedrock",
-      "url": "https://aws.amazon.com/bedrock/pricing/",
-      "tier": "service",
-      "detectedAt": "2026-11-25T19:57:52.986Z",
-      "currentHash": "5d12d0d745eb70f9763f96eab0d62648990ea55f0e4dda3263b1cfc41340d7df",
-      "affectedBlueprintIds": [
-        "aif-d2-131",
-        "aif-d2-132",
-        "aif-d2-133",
-        "aif-d3-001",
-        "aif-d5-002",
-        "aif-d5-007",
-        "aif-d5-008",
-        "aif-d5-013",
-        "aif-d5-014",
-        "aif-d2-cur-retry-unit-cost-calculation",
-        "aif-d2-cur-throughput-output-length",
-        "aif-d2-cur-total-application-cost",
-        "aif-d2-cur-cost-distribution",
-        "aif-d2-cur-benchmark-portability",
-        "aif-d2-cur-language-token-budget",
-        "aif-d2-cur-provisioned-demand-forecast",
-        "aif-d2-cur-provisioned-idle-cost",
-        "aif-d2-cur-hypothetical-token-price-calculation",
-        "aif-d2-cur-cache-observed-billing",
-        "aif-d2-cur-input-output-token-estimate",
-        "aif-d2-cur-custom-model-serving-check",
-        "aif-d3-cur-quality-cost-constraint",
-        "aif-d3-cur-task-routing",
-        "aif-d3-cur-customization-cost-calculation",
-        "aif-d3-cur-customization-cost-horizon",
-        "aif-d3-cur-distillation-economics",
-        "aif-d3-cur-distillation-generation-expense"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "mcp-architecture",
-      "title": "MCP: arquitetura e primitivas do protocolo",
-      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
-      "tier": "service",
-      "detectedAt": "2026-11-25T19:57:52.986Z",
-      "currentHash": "e0a8522fea6e8a9c8244b6231bf65f1845915f607921060b2bc7a5afaca07f75",
-      "affectedBlueprintIds": [
-        "aif-d2-020",
-        "aif-d2-cur-mcp-components",
-        "aif-d2-cur-tool-contract",
-        "aif-d2-cur-mcp-primitives",
-        "aif-d2-cur-mcp-reasoning-boundary",
-        "aif-d2-cur-kiro-mcp-integration",
-        "aif-d2-cur-kiro-controls",
-        "aif-d2-cur-agentcore-gateway"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "models-regions",
-      "title": "Disponibilidade regional de modelos Bedrock",
-      "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-region-compatibility.html",
-      "tier": "service",
-      "detectedAt": "2026-11-25T19:57:52.986Z",
-      "currentHash": "81ed32c4b2c733f3b8cd8ef45c4ee24daef98f9c5ef82edc583d0d98bde358ba",
-      "affectedBlueprintIds": [
-        "aif-d3-001",
-        "aif-d2-cur-bedrock-model-feature-check",
-        "aif-d2-cur-regional-model-availability",
-        "aif-d2-cur-quota-versus-reserved-capacity",
-        "aif-d3-cur-modality-gate"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "quick",
-      "title": "AWS Quick: trabalho, pesquisa e automação",
-      "url": "https://docs.aws.amazon.com/quick/latest/userguide/what-is.html",
-      "tier": "service",
-      "detectedAt": "2026-11-21T17:36:30.792Z",
-      "currentHash": "2fe3a1e9228ba9810aeea7ba6a77b658d79b1acc1f0124ac594b3465edb774a4",
-      "affectedBlueprintIds": [
-        "aif-d2-cur-quick-business-workspace",
-        "aif-d2-cur-quick-research",
-        "aif-d2-cur-quick-flows",
-        "aif-d2-cur-quick-business-automation",
-        "aif-d2-cur-quick-sight-continuity",
-        "aif-d2-cur-quick-index"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "rds-pgvector",
-      "title": "Extensões e versões do RDS para PostgreSQL",
-      "url": "https://docs.aws.amazon.com/AmazonRDS/latest/PostgreSQLReleaseNotes/postgresql-extensions.html",
-      "tier": "service",
-      "detectedAt": "2026-11-24T20:40:59.625Z",
-      "currentHash": "ae02c65b98d6c5576d98a499e05836af624832ab647b7213e38dce2c8de7c8cb",
-      "affectedBlueprintIds": [
-        "aif-d3-cur-rds-vector-capability"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "strands",
-      "title": "Strands Agents: componentes do agente",
-      "url": "https://strandsagents.com/docs/user-guide/sdk/agents/",
-      "tier": "service",
-      "detectedAt": "2026-11-24T20:40:59.625Z",
-      "currentHash": "f9ac0ca86ab94dea9a7cd8cd5a28b6394ff2e346bd304c28284584dfd68a5aaf",
-      "affectedBlueprintIds": [
-        "aif-d2-017",
-        "aif-d2-019",
-        "aif-d2-021",
-        "aif-d3-011",
-        "aif-d3-022",
-        "aif-d2-m01",
-        "aif-d2-p01",
-        "aif-d2-cur-conversation-advantage",
-        "aif-d2-cur-agent-goal-success",
-        "aif-d2-cur-parameters-not-context",
-        "aif-d2-cur-conversation-reference",
-        "aif-d2-cur-agent-plan-execution",
-        "aif-d2-cur-agent-tool-feedback",
-        "aif-d2-cur-agent-termination",
-        "aif-d2-cur-handoff-context",
-        "aif-d2-cur-agent-output-contract",
-        "aif-d2-cur-checkpoint-versus-memory",
-        "aif-d2-cur-context-compression",
-        "aif-d2-cur-memory-correction",
-        "aif-d2-cur-tool-failure-observation",
-        "aif-d2-cur-strands-sdk",
-        "aif-d2-cur-strands-model-choice",
-        "aif-d2-cur-strands-custom-tools",
-        "aif-d2-cur-strands-runtime-choice",
-        "aif-d2-cur-aws-service-layer-map",
-        "aif-d3-cur-tool-failure-state",
-        "aif-d3-cur-conversation-history",
-        "aif-d3-cur-context-pruning",
-        "aif-d3-cur-summary-state-risk"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "strands-multi",
-      "title": "Strands Agents: coordenação de agentes",
-      "url": "https://strandsagents.com/docs/user-guide/sdk/multi-agent/multi-agent-patterns/",
-      "tier": "service",
-      "detectedAt": "2026-11-24T20:40:59.625Z",
-      "currentHash": "3f9a50b04e70a0f76188052f74343ecbce170716c9b864d245c7bec98f149cd1",
-      "affectedBlueprintIds": [
-        "aif-d2-022",
-        "aif-d2-023",
-        "aif-d2-cur-agent-versus-fixed-automation",
-        "aif-d2-cur-parallel-dependent-tools",
-        "aif-d2-cur-workflow-autonomy",
-        "aif-d2-cur-supervisor-handoff",
-        "aif-d2-cur-handoff-context",
-        "aif-d2-cur-agent-output-contract",
-        "aif-d2-cur-multiagent-complexity",
-        "aif-d2-cur-strands-agent-patterns",
-        "aif-d3-cur-fixed-flow-versus-agent",
-        "aif-d3-cur-task-decomposition"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    },
-    {
-      "sourceId": "textract",
-      "title": "Amazon Textract",
-      "url": "https://docs.aws.amazon.com/textract/latest/dg/what-is.html",
-      "tier": "service",
-      "detectedAt": "2026-11-20T18:38:08.816Z",
-      "currentHash": "3da27d487befa97164beb85bb5ed60dfc7d3d1d659663bddf206fdedf394ead8",
-      "affectedBlueprintIds": [
-        "aif-d1-058",
-        "aif-d1-059",
-        "aif-d1-p01",
-        "aif-d1-cur-scan-to-nlp",
-        "aif-d1-cur-table-relations"
-      ],
-      "status": "pending",
-      "requiredActions": [
-        "Ler a alteração na fonte oficial e identificar impactos no objetivo AIF-C01.",
-        "Atualizar enunciado, alternativas, resposta, explicação e takeaway quando necessário.",
-        "Executar pnpm verify:release e revisar o simulado no navegador.",
-        "Aprovar a fonte somente depois de registrar a decisão editorial."
-      ]
-    }
-  ],
+  "version": "2026.11.27-aif.1",
+  "generatedAt": "2026-11-27T17:48:51.564Z",
+  "pendingChanges": [],
   "discoveryChanges": [],
   "approvedChanges": [
     {
@@ -1145,6 +915,54 @@
       "currentHash": "cb1fa5e7c38b1bd826eb7fbcc517918077f5f058f89e9949bb08b9761a4327c6",
       "approvedAt": "2026-11-18T20:38:08.753Z",
       "note": "Relidas anatomia e coordenação Strands e os 39 itens distintos mapeados, inclusive gabaritos, alternativas e exemplos. Revisão específica registrada em source-reading e editorial-release.sourceReview em 18/11, sem alteração de questões. Guia distingue Graph/Swarm/workflow em código, estados e limites da supervisão."
+    },
+    {
+      "sourceId": "bedrock-pricing",
+      "currentHash": "5d12d0d745eb70f9763f96eab0d62648990ea55f0e4dda3263b1cfc41340d7df",
+      "approvedAt": "2026-11-27T17:48:49.791Z",
+      "note": "Cotejei categorias sob demanda, capacidade provisionada, cache, personalização e destilação. Os itens usam critérios de comparação ou números explicitamente hipotéticos. Os cinco vínculos de governança e segurança usam fontes próprias para as decisões técnicas, que não dependem da tabela de preços."
+    },
+    {
+      "sourceId": "mcp-architecture",
+      "currentHash": "e0a8522fea6e8a9c8244b6231bf65f1845915f607921060b2bc7a5afaca07f75",
+      "approvedAt": "2026-11-27T17:48:49.882Z",
+      "note": "O documento vigente distingue host, cliente e servidor, e mantém Tools, Resources e Prompts como primitivas. Descoberta por requisição e depreciações em 2026-07-28 não alteram os itens, que não prescrevem esses detalhes de negociação. Permissões continuam sob controle da aplicação."
+    },
+    {
+      "sourceId": "models-regions",
+      "currentHash": "81ed32c4b2c733f3b8cd8ef45c4ee24daef98f9c5ef82edc583d0d98bde358ba",
+      "approvedAt": "2026-11-27T17:48:49.969Z",
+      "note": "Conferi diferenças entre disponibilidade In-Region, perfis geográficos e perfil global. Os cinco itens exigem verificar modelo, API, modalidade e Região efetivamente usados. A decisão sobre quota não trata aumento de limite como contratação de capacidade."
+    },
+    {
+      "sourceId": "quick",
+      "currentHash": "2fe3a1e9228ba9810aeea7ba6a77b658d79b1acc1f0124ac594b3465edb774a4",
+      "approvedAt": "2026-11-27T17:48:50.055Z",
+      "note": "A página vigente descreve Quick, Quick Sight, Flows, Automate, Index e Research. O isolamento entre BI, fluxos repetíveis, automação empresarial, índice e pesquisa com referências permanece válido nos seis cenários. A nota confirma continuidade das integrações QuickSight."
+    },
+    {
+      "sourceId": "rds-pgvector",
+      "currentHash": "aba8d02bbee21a5ee088c4da8a45332de92df04cc61bb9c81fa00ad3413d9ce5",
+      "approvedAt": "2026-11-27T17:48:50.136Z",
+      "note": "Reconferi a matriz de extensões por versão do PostgreSQL nesta captura mais recente. A questão pede consultar a versão escolhida e configurar a busca vetorial, sem fixar uma edição nem inferir integração nativa com Bedrock."
+    },
+    {
+      "sourceId": "strands",
+      "currentHash": "f9ac0ca86ab94dea9a7cd8cd5a28b6394ff2e346bd304c28284584dfd68a5aaf",
+      "approvedAt": "2026-11-27T17:48:50.220Z",
+      "note": "Conferi composição de modelo, ferramentas e ciclo do agente, contexto, persistência de sessão, snapshots e recuperação de falhas. Os itens distinguem estado de execução, memória selecionada, escolha do provedor e hospedagem. Nenhum exige uma versão específica do SDK."
+    },
+    {
+      "sourceId": "strands-multi",
+      "currentHash": "3f9a50b04e70a0f76188052f74343ecbce170716c9b864d245c7bec98f149cd1",
+      "approvedAt": "2026-11-27T17:48:50.308Z",
+      "note": "A documentação distingue Graph com arestas programadas, Swarm com transferências dinâmicas, delegação a especialistas e fluxos definidos em código. Os itens mantêm as diferenças de dependência, responsabilidade, transferência de contexto e custo de coordenação."
+    },
+    {
+      "sourceId": "textract",
+      "currentHash": "3da27d487befa97164beb85bb5ed60dfc7d3d1d659663bddf206fdedf394ead8",
+      "approvedAt": "2026-11-27T17:48:50.399Z",
+      "note": "A documentação distingue Textract Core de Insights. Extração de palavras, formulários e relações de tabelas continua coberta por Core. Insights amplia o processamento generativo e tem escopo regional próprio. O banco não pede que Insights substitua análise de fotos nem leitura de células."
     }
   ]
 }
